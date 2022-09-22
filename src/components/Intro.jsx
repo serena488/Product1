@@ -18,14 +18,16 @@ export const Intro = () => {
           >
             <div className="container">
               <marquee behavior="slide" direction="down" delay="2s">
-                <h1 className=" ">Cargo Transport Services</h1>
+                <h1 className=" ">Dispatch Services</h1>
               </marquee>
               <marquee behavior="slide" direction="down">
                 <p>
-                  Lorem ipsum dolor sit am t, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  If you’re looking for the best dispatch service for owner
+                  operators & independent truckers, you’ve come to the right
+                  place. Truckage Dispatch Services is a professional trucking
+                  dispatch provider, serving the continental U.S. & North
+                  America. We understand the pain & frustration of many truck
+                  drivers & owner operators.
                 </p>
               </marquee>
 
