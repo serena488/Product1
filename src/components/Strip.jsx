@@ -6,7 +6,7 @@ import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter.esm";
 import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram.esm";
 import { FaYoutube } from "@react-icons/all-files/fa/FaYoutube.esm";
 import { FaPinterest } from "@react-icons/all-files/fa/FaPinterest.esm";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 export const Strip = () => {
   return (

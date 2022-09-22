@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 
 import "animate.css";
-import TrackVisibility from "react-on-screen";
+
 import React from "react";
 import { Test } from "../components/test";
 
@@ -18,7 +18,7 @@ export const Intro = () => {
           >
             <div className="container">
               <marquee behavior="slide" direction="down" delay="2s">
-                <h1 className=" ">Cargo Transport Services</h1>
+                <h1 className=" ">Cargo Transklgmksdmgksds</h1>
               </marquee>
               <marquee behavior="slide" direction="down">
                 <p>

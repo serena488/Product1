@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/truck.jpeg";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 // import navIcon1 from '../assets/img/nav-icon1.svg';
 // import navIcon2 from '../assets/img/nav-icon2.svg';
 // import navIcon3 from '../assets/img/nav-icon3.svg';

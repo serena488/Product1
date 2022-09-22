@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0b73aa52-72b3-407c-a70f-a9e63bfefd16/deploy-status)](https://app.netlify.com/sites/truckagedispatching/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

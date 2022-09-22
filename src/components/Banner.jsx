@@ -1,6 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Row, Col, Container } from "react-bootstrap";
+
 import { MdCall } from "@react-icons/all-files/md/MdCall.esm";
 import { BsFillCalendarFill } from "@react-icons/all-files/bs/BsFillCalendarFill.esm";
 import { FaGlobe } from "@react-icons/all-files/fa/FaGlobe.esm";

@@ -30,7 +30,6 @@ export const Test = () => {
   };
 
   const [step, setStep] = useState(0);
-  const [hideButton, setHideButton] = useState(0);
 
   const step_form = step + 1;
 
