@@ -1,38 +1,330 @@
-.App {
-  text-align: center;
+/************ Custom Font ************/
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Medium.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Book.ttf');
+	font-weight: 400;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/************ Default Css ************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  color: black !important;
+  font-family: 'Centra', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p, a, li, button, ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  border: 0;
+  /* background-color: transparent; */
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+@media (min-width:1700px) {
+	main .container {
+		max-width: 100%;
+		padding: 0 150px;
+	}
+}
+
+/************ Strip Css ************/
+.Strip{
+  width: 100%;
+  height: 42px;
+  padding: 10px 0 10px 0px;
+  background-color: orangered;
   color: white;
+  margin-top: 0; 
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.Strip a{
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.Strip table thead td{
+  padding-right: 5px;
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+#STRIP{
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.Strip .marquee {
+color:white;
+letter-spacing: 2px;
+font-weight: 500;
+padding-left: -10px;
+font-size: 20px;
+}
+
+
+
+
+/************ Navbar Css ************/
+
+
+nav.navbar {
+  padding: 0px 0;
+ 
+  width: 100%;
+  z-index: 9999;
+  transition:  0.32s ease-in-out;
+  background-color: white;
+  opacity: 1;
+  height: auto;
+  position: sticky;
+  top: 0%;
+}
+
+
+nav.navbar a.navbar-brand {
+    width: 12%;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  font-weight: 500;
+  color: gray ;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 20px;
+  opacity: 1;
+}
+
+nav.navbar .navbar-nav .nav-link.active-link {
+color: orangered;
+}
+
+nav.navbar a{
+  font-weight: 500;
+  color: gray ;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 20px;
+  opacity: 1;
+}
+
+nav.navbar a:hover{
+  opacity: 1.5;
+  color: orangered;
+}
+
+
+
+
+
+
+span.navbar-text {
+    display: flex;
+    align-items: center;
+}
+
+
+.intro {
+
+  background: linear-gradient(rgba(0,0,0,0.671),rgba(0, 0, 0, 0.671)), url("../src/assets/img/12.jpg");
+  margin-top: 0;
+  padding: 50px 0 50px 0px;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  } 
+
+  .intro marquee .btn1{
+    background-color: orangered; ;
+    color: white;
   }
-  to {
-    transform: rotate(360deg);
+  .intro marquee .btn1:hover {
+    border: 1px orangered solid;
+    background-color: transparent;
+    color: orangered;
   }
+
+  .intro marquee .btn2{
+    margin-left: 30px;
+    border: 1px white solid;
+    background-color: transparent;
+    color: white;
+  }
+  .intro marquee .btn2:hover {
+    background-color: white; ;
+    color: black;
+  }
+
+
+  /*footer*/
+
+ .Footer{
+	background-color: #202126;
+
+ }
+  /* Banner */
+
+.Banner{
+  padding: 20px 0 20px 0px;
+  background-repeat: no-repeat;
+  background-color: rgb(235, 232, 232);
+  height: auto;
+  text-align: center;
+  
+}
+.Banner .p2{
+  padding: 40px;
+  font-size: small;;
+}
+
+
+.Banner .p2 table td p {
+  color: grey;
+  font-size: 14px;
+}
+.Banner .p2 table td h4 {
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Services */
+
+
+.Services{
+  margin-top: 0;
+  padding: 100px 0 300px 0px;
+  background-repeat: no-repeat;
+  background-color: white;
+  height: auto + 350px;
+
+}
+.myS{
+  border-width: 5px;
+  border-left: 5px solid orangered;
+}
+
+.myS{
+  border-width: 5px;
+  border-left: 5px solid orangered;
+}
+.Services  h1{
+  font-weight: bold ;
+}
+.Services p{
+  color: grey ;
+}
+
+.Services .myContainer{
+  background-color: rgb(235, 232, 232) ;
+  
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.Services .myContainer div{
+  text-align: center;
+  padding: 2%;
+}
+
+.Services .myContainer .clr{
+  background-color: orangered;
+  color: rgb(235, 232, 232);
+  border-radius: 10px;
+  }
+
+.Services div  img{
+  width: 7rem;
+  height: 7rem;
+}
+
+.Services div .tabletext{
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.myB{
+  background-color: rgb(235, 232, 232);
+  border-radius: 3%; 
+  height: auto;
+  padding: 20px;
+}
+  .myB .mytext{
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.myB .mytext img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  
+}
+
+.Test{
+  margin-top: 0;
+  padding: 300px 0 300px 0px;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+
+.Plan{
+  margin-top: 0;
+  padding: 250px 0 250px 0px;
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url(".//assets/img/42.jpg");
+  background-repeat: no-repeat;
+  width: auto;
+}
+
+.Plan .mybar{
+  width: 100%;
 }
