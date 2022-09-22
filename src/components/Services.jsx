@@ -122,9 +122,8 @@ export const Services = () => {
               <p className="text-orangered">OUR TESTIMONIAL</p>
               <h1>What customers think about us</h1>
               <p>
-                Lorem ipsum dolor sit am t, consectetur adipiscing elit, sed
-                <br />
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                They Trusted Us. We are happy because we have <br />
+                happy customers.
               </p>
             </div>
           </Col>
@@ -138,10 +137,10 @@ export const Services = () => {
                     fontSize="2em"
                   />
                   <br />
-                  <br />
-                  Lorem ipsum dolor sit am t, consectetur adipiscing elit, sed
-                  <br />
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  <br /> <br />
+                  “TDS team is a very professional dispatch team ever whom I'm
+                  working with they have plan trip for me and find me good
+                  paying loads, Highly recommended "
                   <br />
                   <FaStar color="orangered" fontSize="1em" />
                   <FaStar color="orangered" fontSize="1em" />
@@ -163,9 +162,12 @@ export const Services = () => {
                   />
                   <br />
                   <br />
-                  Lorem ipsum dolor sit am t, consectetur adipiscing elit, sed
-                  <br />
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Truckage Dispatch is Awesome- This company is everything a
+                  truck driver should expect from a dispatch company. They
+                  negotiate with the brokers to get great rates, they call you
+                  to offer loads for the next day and they handle getting
+                  revised rate confirmation for detention pay & lay overs. I'm
+                  glad to have them working for our company!
                   <br />
                   <FaStar color="orangered" fontSize="1em" />
                   <FaStar color="orangered" fontSize="1em" />

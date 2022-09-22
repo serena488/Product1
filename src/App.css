@@ -97,7 +97,7 @@ input:focus, textarea:focus, select:focus {
 
 
 #STRIP{
-  margin-left: 10px;
+  margin-left: 15px;
   margin-right: 5px;
 }
 
@@ -217,11 +217,24 @@ span.navbar-text {
   background-color: rgb(235, 232, 232);
   height: auto;
   text-align: center;
+  align-items: center;
+  padding-left: 5px;
+  
+  
+}
+.Banner .myContainer{
+  width: 100%;
+  text-align: left;
+  
+}
+.Banner p{
+  text-align: center;
   
 }
 .Banner .p2{
-  padding: 40px;
-  font-size: small;;
+  text-align: center;
+  font-size: small;
+  margin: 10px;
 }
 
 

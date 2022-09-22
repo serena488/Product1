@@ -13,7 +13,7 @@ export const Strip = () => {
     <section className="Strip">
       <div id="STRIP">
         <Row>
-          <Col className="col-lg-4 col-md-6 col-sm-6 me-5">
+          <Col className="col-lg-4 col-md-5 col-sm-6">
             <a>
               <marquee
                 className="marquee fw-light"
@@ -27,12 +27,16 @@ export const Strip = () => {
             </a>
           </Col>
 
-          <Col className="col-lg-3 col-md-5 col-sm-6">
+          <Col className="col-lg-3 col-md-5 col-6 text-center">
             <MdCall />
-            <a className="fs-5 ms-1 text-white">+1 (980) 485-5274</a>
+            <a className="fs-5 ms-1  text-white">+1 (980) 485-5274</a>
+          </Col>
+          <Col className="col-lg-3 col-md-5 col-12">
+            <MdEmail />
+            <a className="fs-5 ms-2  text-white ">info@abcdeagstes.com</a>
           </Col>
 
-          <Col className=" col-lg-0 float-left">
+          <Col className=" col-lg-2 col-md-5 col-12 text-center">
             <a className="fs-5 me-2 text-white">
               <FaYoutube />
             </a>
