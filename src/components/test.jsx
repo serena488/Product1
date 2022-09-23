@@ -50,8 +50,8 @@ export const Test = () => {
               <div className="form_body" onSubmit={sendEmail}>
                 <div className="header">
                   <h4>
-                    Get an instant quote or call now our customer care center
-                    +1 (980) 485-5274
+                    Get an instant quote or call now our customer care center +1
+                    (980) 485-5274
                   </h4>
                   <span>{step_form}</span>
                 </div>

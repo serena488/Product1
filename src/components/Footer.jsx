@@ -106,29 +106,12 @@ export const Footer = () => {
 
               <div className="col-12">
                 <div className="py-5 footer-menu-wrap d-md-flex align-items-center">
-                  <ul className="list-unstyled footer-menu mr-auto">
-                    <li>
-                      <a href="#">Home</a>
-                    </li>
-                    <li>
-                      <a href="#">About</a>
-                    </li>
-                    <li>
-                      <a href="#">Our works</a>
-                    </li>
-                    <li>
-                      <a href="#">Services</a>
-                    </li>
-                    <li>
-                      <a href="#">Blog</a>
-                    </li>
-                    <li>
-                      <a href="#">Contacts</a>
-                    </li>
-                  </ul>
-                  <div className="site-logo-wrap ml-auto">
+                  © 2020 Copyright: Some Rights Reserved (2009-2022) under
+                  Creative Commons Attribution-NonCommercial-ShareAlike license
+                  unless otherwise noted.
+                  <div className="ps-4 site-logo-wrap ml-auto">
                     <a href="#" className="site-logo">
-                      Colorlib
+                      Truckage
                     </a>
                   </div>
                 </div>
