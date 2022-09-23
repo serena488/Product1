@@ -42,7 +42,7 @@ export const Test = () => {
   }, [formSubmitionStatus]);
 
   return (
-    <form class="form" ref={form} onSubmit={sendEmail}>
+    <form class="form" ref={form} onSubmit={sendEmail} data-netlify="true">
       <div className="card">
         <div>
           {
