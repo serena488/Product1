@@ -28,8 +28,11 @@ export const Services = () => {
       <div className="container p-2 mt-4 align-top myS">
         <h1>Our Services</h1>
         <p>
-          Lorem ipsum dolor sit am t, consectetur adipiscing elit, sed <br />
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          At TDS, you call the shots – We Work for You! Just consider us your
+          remote administrative team. You make the ultimate call on where to be
+          dispatched; with our flat rate fee you you keep 100% of the payload.
+          The only thing you have to worry about is the venues you choose &
+          looking good doing it!
         </p>
       </div>
       <br />
@@ -200,9 +203,11 @@ export const Services = () => {
                   />
                   <br />
                   <br />
-                  “TDS team is a very professional dispatch team ever whom I'm
-                  working with they have plan trip for me and find me good
-                  paying loads, Highly recommended "
+                  “Just a quick note to acknowledge the outstanding service
+                  supplied by Cornelius Sindhu with his follow up on e-mails,
+                  bills of lading, requests for pricing and his amazing pursuit
+                  of late freight forwarders. It is a pleasure to work with
+                  him."
                   <br />
                   <br />
                   <FaStar color="orangered" fontSize="1em" />
@@ -226,9 +231,11 @@ export const Services = () => {
                   />
                   <br />
                   <br />
-                  “TDS team is a very professional dispatch team ever whom I'm
-                  working with they have plan trip for me and find me good
-                  paying loads, Highly recommended "
+                  “You sent me some of the most hardworking, friendly, quick on
+                  their feet individuals that I’ve ever met in my life. If I get
+                  married one day, those 6 guys will be my groomsmen!”. (A text
+                  message sent by a new TDS customer regarding one of our
+                  project installation crews)."
                   <br />
                   <br />
                   <FaStar color="orangered" fontSize="1em" />
