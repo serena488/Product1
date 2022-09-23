@@ -23,7 +23,7 @@ export const Banner = () => {
                       <p>
                         Give us a free call
                         <br />
-                        +92 3004283213
+                        +1 (980) 485-5274
                       </p>
                     </div>
                   </div>

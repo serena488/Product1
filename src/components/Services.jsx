@@ -1,6 +1,9 @@
 import React from "react";
 import flight from "../assets/img/flight.png";
+import truckno from "../assets/img/truckno.png";
+import driving from "../assets/img/driving.png";
 import delivery from "../assets/img/delivery.png";
+import lowprice from "../assets/img/low-price.png";
 import Girl from "../assets/img/girl.jpg";
 import usa from "../assets/img/usa.png";
 import Boy from "../assets/img/boy.jpg";
@@ -8,7 +11,7 @@ import { Row, Col } from "react-bootstrap";
 import { FaQuoteLeft } from "@react-icons/all-files/fa/FaQuoteLeft.esm";
 import { FaQuoteRight } from "@react-icons/all-files/fa/FaQuoteRight.esm";
 import { FaStar } from "@react-icons/all-files/fa/FaStar.esm";
-import { FaTruck } from "@react-icons/all-files/fa/FaTruck.esm";
+import { FaFax } from "@react-icons/all-files/fa/FaFax.esm";
 import { FaDoorOpen } from "@react-icons/all-files/fa/FaDoorOpen.esm";
 import { RiShip2Fill } from "@react-icons/all-files/ri/RiShip2Fill.esm";
 import { FaMotorcycle } from "@react-icons/all-files/fa/FaMotorcycle.esm";
@@ -31,7 +34,7 @@ export const Services = () => {
       <div className="container myContainer">
         <div className="row row-cols-1 row-cols-sm-3 row-cols-md-3 justify-content-center fw-bold text-align-start flex-wrap myT">
           <div className="col">
-            <img src={delivery} />
+            <img src={truckno} />
             <br />
             <div className="tabletext">
               No Forced <br />
@@ -40,7 +43,7 @@ export const Services = () => {
           </div>
 
           <div className="clr text-center col">
-            <FaTruck fontSize="7em" color=" rgb(235, 232, 232)" />
+            <img src={driving} />
             <br />
             <div className="tabletext">
               Personal
@@ -53,8 +56,8 @@ export const Services = () => {
             <img src={delivery} />
             <br />
             <div className="tabletext">
-              Classic Vehicle <br />
-              Transport
+              100% <br />
+              Payload
             </div>
           </div>
 
@@ -62,8 +65,8 @@ export const Services = () => {
             <FaDoorOpen fontSize="7em" />
             <br />
             <div className="tabletext">
-              Door To Door Auto
-              <br /> Transport
+              Door To Door
+              <br /> Services
             </div>
           </div>
 
@@ -86,15 +89,17 @@ export const Services = () => {
           </div>
 
           <div className="col">
-            <RiShip2Fill fontSize="7em" />
+            <FaFax fontSize="6em" />
             <br />
             <div className="tabletext">
-              Boat Shipping <br /> Transport Services
+              Fax/Email
+              <br />
+              Documents
             </div>
           </div>
 
           <div className="clr col">
-            <FaMotorcycle fontSize="7em" />
+            <img src={lowprice} />
             <br />
             <div className="tabletext">
               We Negotiate Top

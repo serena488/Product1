@@ -32,7 +32,13 @@ export const ContactUs = () => {
           <label>Name</label>
           <input type="text" name="user_name" />
           <label>Email</label>
-          <input type="email" name="user_email" />
+          <input type="text" name="email" />
+          <label>Ship From</label>
+
+          <input type="text" name="shipfrom" />
+          <label>Ship To</label>
+
+          <input type="comment" name="shipto" />
           <label>Message</label>
           <textarea name="message" />
           <input type="submit" value="Send" />

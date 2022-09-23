@@ -51,7 +51,7 @@ export const Test = () => {
                 <div className="header">
                   <h4>
                     Get an instant quote or call now our customer care center
-                    03004283213
+                    +1 (980) 485-5274
                   </h4>
                   <span>{step_form}</span>
                 </div>
@@ -74,6 +74,11 @@ export const Test = () => {
                   <div className="input_field">
                     <input type="text" name="shipto" required />
                     <span>Ship To</span>
+                  </div>
+
+                  <div className="input_field">
+                    <textarea type="message" name="shipto" required />
+                    <span>Message</span>
                   </div>
                 </div>
               </div>

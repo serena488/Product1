@@ -87,6 +87,15 @@
     border-radius: 3px;
     transition: all 0.5s
 }
+.input_field textarea {
+    height: 80px;
+    width: 100%;
+    padding: 0px 9px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    transition: all 0.5s
+}
 
 .input_field span {
     position: absolute;
@@ -104,6 +113,13 @@
     top: -6px;
     font-size: 12px
 }
+
+.input_field textarea:focus~span,
+.input_field textarea:valid~span {
+    top: -9px;
+    font-size: 10px
+}
+
 
 .form_body {
     padding: 15px
