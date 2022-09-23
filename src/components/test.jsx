@@ -12,7 +12,7 @@ export const Test = () => {
     emailjs
       .sendForm(
         "service_ayea0km",
-        "template_koe8rrs",
+        "template_8404qgd",
         form.current,
         "S8YiLcRYqHsLL7DXT"
       )
