@@ -17,10 +17,14 @@ export const Footer = () => {
               <div className="col-md pr-md-5 mb-4 mb-md-0">
                 <h3>ABOUT US</h3>
                 <p className="mb-4">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Laboriosam itaque unde facere repellendus, odio et iste
-                  voluptatum aspernatur ratione mollitia tempora eligendi maxime
-                  est, blanditiis accusamus. Incidunt, aut, quis!
+                  We are Truckage Dispatch Services. Experienced trucking
+                  company operating in 48 U.S continental states. We are an
+                  Illinois asset based over the road transportation company. We
+                  service all 48 states, and specialize in expedite full
+                  truckload and LTL freight. We are a service based company, we
+                  sell our transportation services to shippers, customers,
+                  brokers, etc. We also can provide dedicated service for your
+                  dedicated lanes if needed.
                 </p>
                 <ul className="list-unstyled quick-info mb-4">
                   <li>
