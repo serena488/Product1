@@ -5,6 +5,7 @@ import Img1 from "../assets/img/img_1.jpg";
 import Img2 from "../assets/img/img_2.jpg";
 import Img3 from "../assets/img/img_3.jpg";
 import Img4 from "../assets/img/img_4.jpg";
+import { RiArrowRightSFill } from "@react-icons/all-files/ri/RiArrowRightSFill.esm";
 
 export const Footer = () => {
   return (
@@ -51,12 +52,15 @@ export const Footer = () => {
               </div>
               <div className="col-md mb-4 mb-md-0">
                 <h3> LATEST TWEETS</h3>
+
                 <ul className="list-unstyled tweets">
                   <li className="d-flex">
                     <div className="mr-4">
                       <span className="icon icon-twitter"></span>
                     </div>
+
                     <div>
+                      <RiArrowRightSFill fontSize="25px" color="orangered" />
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Facere unde omnis veniam porro excepturi.
                     </div>
@@ -66,6 +70,7 @@ export const Footer = () => {
                       <span className="icon icon-twitter"></span>
                     </div>
                     <div>
+                      <RiArrowRightSFill fontSize="25px" color="orangered" />
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Facere unde omnis veniam porro excepturi.
                     </div>
@@ -75,6 +80,7 @@ export const Footer = () => {
                       <span className="icon icon-twitter"></span>
                     </div>
                     <div>
+                      <RiArrowRightSFill fontSize="25px" color="orangered" />
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Facere unde omnis veniam porro excepturi.
                     </div>

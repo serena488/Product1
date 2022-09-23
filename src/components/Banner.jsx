@@ -43,7 +43,7 @@ export const Banner = () => {
                 <Col sm={12} md={6} xl={6}>
                   <h4>WORKING HOURS</h4>
                   <p>
-                    Mon-Sat: 7AM-5PM <br /> Sunday: 9AM-3PM
+                    Mon-Sat:<br /> 7AM-5PM <br /> Sunday: <br /> 9AM-3PM
                   </p>
                 </Col>
               </Row>

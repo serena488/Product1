@@ -13,8 +13,8 @@ export const Intro = () => {
           <Col
             className=" text-start text-white m-1  py-4"
             sm={12}
-            md={5}
-            xl={7}
+            md={6}
+            xl={6}
           >
             <div className="container">
               <marquee behavior="slide" direction="down" delay="2s">

@@ -5,6 +5,10 @@ import driving from "../assets/img/driving.png";
 import delivery from "../assets/img/delivery.png";
 import lowprice from "../assets/img/low-price.png";
 import Girl from "../assets/img/girl.jpg";
+import Girl2 from "../assets/img/allison.jpg";
+import Girl3 from "../assets/img/lau keith.jpg";
+import Girl4 from "../assets/img/allef Shafak.jpg";
+
 import usa from "../assets/img/usa.png";
 import Boy from "../assets/img/boy.jpg";
 import { Row, Col } from "react-bootstrap";
@@ -62,7 +66,7 @@ export const Services = () => {
           </div>
 
           <div className="clr col">
-            <FaDoorOpen fontSize="7em" />
+            <FaDoorOpen fontSize="5em" />
             <br />
             <div className="tabletext">
               Door To Door
@@ -80,7 +84,7 @@ export const Services = () => {
           </div>
 
           <div className="clr col">
-            <AiFillDollarCircle fontSize="7em" />
+            <AiFillDollarCircle fontSize="5em" />
             <br />
             <div className="tabletext">
               Unlimited Credit <br />
@@ -89,7 +93,7 @@ export const Services = () => {
           </div>
 
           <div className="col">
-            <FaFax fontSize="6em" />
+            <FaFax fontSize="5em" />
             <br />
             <div className="tabletext">
               Fax/Email
@@ -142,30 +146,6 @@ export const Services = () => {
                     fontSize="2em"
                   />
                   <br />
-                  <br /> <br />
-                  “TDS team is a very professional dispatch team ever whom I'm
-                  working with they have plan trip for me and find me good
-                  paying loads, Highly recommended "
-                  <br />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <br />
-                  <br />
-                  <img src={Boy} />
-                  <h5>Johny Aslam</h5>
-                </div>
-              </Carousel.Item>
-              <Carousel.Item>
-                <div className="mytext">
-                  <FaQuoteLeft
-                    color="orangered"
-                    className="float-start"
-                    fontSize="2em"
-                  />
-                  <br />
                   <br />
                   Truckage Dispatch is Awesome- This company is everything a
                   truck driver should expect from a dispatch company. They
@@ -181,8 +161,85 @@ export const Services = () => {
                   <FaStar color="orangered" fontSize="1em" />
                   <br />
                   <br />
+                  <img src={Boy} />
+                  <h5>Johny Slam</h5>
+                </div>
+              </Carousel.Item>
+              <Carousel.Item>
+                <div className="mytext">
+                  <FaQuoteLeft
+                    color="orangered"
+                    className="float-start"
+                    fontSize="2em"
+                  />
+                  <br />
+                  <br />
+                  “TDS team is a very professional dispatch team ever whom I'm
+                  working with they have plan trip for me and find me good
+                  paying loads, Highly recommended "
+                  <br />
+                  <br />
+                  <FaStar color="orangered" fontSize="1em" />
+                  <FaStar color="orangered" fontSize="1em" />
+                  <FaStar color="orangered" fontSize="1em" />
+                  <FaStar color="orangered" fontSize="1em" />
+                  <FaStar color="orangered" fontSize="1em" />
+                  <br />
+                  <br />
                   <img src={Girl} />
                   <h5>Mia Manissa</h5>
+                </div>
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <div className="mytext">
+                  <FaQuoteLeft
+                    color="orangered"
+                    className="float-start"
+                    fontSize="2em"
+                  />
+                  <br />
+                  <br />
+                  “TDS team is a very professional dispatch team ever whom I'm
+                  working with they have plan trip for me and find me good
+                  paying loads, Highly recommended "
+                  <br />
+                  <br />
+                  <FaStar color="orangered" fontSize="1em" />
+                  <FaStar color="orangered" fontSize="1em" />
+                  <FaStar color="orangered" fontSize="1em" />
+                  <FaStar color="orangered" fontSize="1em" />
+                  <FaStar color="orangered" fontSize="1em" />
+                  <br />
+                  <br />
+                  <img src={Girl2} />
+                  <h5>Debora Wolf</h5>
+                </div>
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <div className="mytext">
+                  <FaQuoteLeft
+                    color="orangered"
+                    className="float-start"
+                    fontSize="2em"
+                  />
+                  <br />
+                  <br />
+                  “TDS team is a very professional dispatch team ever whom I'm
+                  working with they have plan trip for me and find me good
+                  paying loads, Highly recommended "
+                  <br />
+                  <br />
+                  <FaStar color="orangered" fontSize="1em" />
+                  <FaStar color="orangered" fontSize="1em" />
+                  <FaStar color="orangered" fontSize="1em" />
+                  <FaStar color="orangered" fontSize="1em" />
+                  <FaStar color="orangered" fontSize="1em" />
+                  <br />
+                  <br />
+                  <img src={Girl4} />
+                  <h5>Elif Shafak</h5>
                 </div>
               </Carousel.Item>
             </Carousel>

@@ -289,8 +289,8 @@ span.navbar-text {
   }
 
 .Services div  img{
-  width: 7rem;
-  height: 7rem;
+  width: 5rem;
+  height: 5rem;
 }
 
 .Services div .tabletext{
@@ -326,13 +326,60 @@ span.navbar-text {
 
 
 .Plan{
-  margin-top: 0;
-  padding: 250px 0 250px 0px;
-  background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url(".//assets/img/42.jpg");
+ 
+  
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url(".//assets/img/mytruck.jpg");
   background-repeat: no-repeat;
   width: auto;
+  
+
 }
 
-.Plan .mybar{
-  width: 100%;
+
+
+.Plan .PlanContainer{
+ 
+ text-align: center;
+ text-align: top;
+ color: white;
+ overflow: hidden;
+justify-content: center;
+align-items: center;
+}
+
+
+.heading{
+  padding-top: 40px;
+ background-color: orangered;
+ border: 1px solid white;
+ padding-bottom : 40px;
+ padding-left: 0px;
+ padding-right: 0px;
+
+ }
+ .heading:hover{
+  background-color: grey;
+  color:white;
+ }
+
+ 
+.body{
+  border: 1px solid white;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+}
+
+.column:hover{
+  padding-top:90px;
+}
+
+@media (min-width: 767px) {
+  .hidden-mobile {
+    display: none;
+  }
 }

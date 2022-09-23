@@ -21,7 +21,7 @@ export const Test = () => {
           console.log(result.text);
           console.log("message sent");
           setFormSubmitionStatus();
-          
+
         },
         (error) => {
           console.log(error.text);
@@ -44,7 +44,7 @@ export const Test = () => {
   }, [formSubmitionStatus]);
 
   return (
-    <form class="form" ref={form} onSubmit={sendEmail} data-netlify="true">
+    <form className="form" ref={form} onSubmit={sendEmail} data-netlify="true">
       <div className="card">
         <div>
           {
