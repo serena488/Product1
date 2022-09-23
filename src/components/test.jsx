@@ -77,7 +77,7 @@ export const Test = () => {
                   </div>
 
                   <div className="input_field">
-                    <textarea type="message" name="shipto" required />
+                    <textarea type="message" name="message" required />
                     <span>Message</span>
                   </div>
                 </div>
