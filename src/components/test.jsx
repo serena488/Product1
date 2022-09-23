@@ -20,6 +20,8 @@ export const Test = () => {
         (result) => {
           console.log(result.text);
           console.log("message sent");
+          setFormSubmitionStatus();
+          
         },
         (error) => {
           console.log(error.text);

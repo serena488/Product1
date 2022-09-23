@@ -222,30 +222,25 @@ span.navbar-text {
   
   
 }
-.Banner .myContainer{
+
+.Banner .BannerContainer{
   width: 100%;
-  text-align: left;
+  text-align: center;
+  justify-content: center;
   
 }
-.Banner p{
-  text-align: center;
-  
-}
-.Banner .p2{
-  text-align: center;
-  font-size: small;
-  margin: 10px;
-}
 
-
-.Banner .p2 table td p {
+.Banner .BannerContainer p{
   color: grey;
   font-size: 14px;
+  font-weight: bold;
 }
-.Banner .p2 table td h4 {
+
+.Banner .BannerContainer h4{
   font-weight: bolder;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+
 
 /* Services */
 

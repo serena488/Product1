@@ -31,7 +31,7 @@ export const Footer = () => {
                   <li>
                     <a href="#" className="d-flex align-items-center">
                       <span className="icon mr-3 icon-envelope"></span>{" "}
-                      info@gmail.com
+                      truckage.dispatch@gmail.com
                     </a>
                   </li>
                 </ul>
