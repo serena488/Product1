@@ -11,10 +11,10 @@ export const Test = () => {
 
     emailjs
       .sendForm(
-        "service_3yit61r",
-        "template_iv3j0dd",
+        "service_ayea0km",
+        "template_koe8rrs",
         form.current,
-        "CEqhc-QEsEKVy3vzA"
+        "S8YiLcRYqHsLL7DXT"
       )
       .then(
         (result) => {
