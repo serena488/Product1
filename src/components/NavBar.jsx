@@ -59,13 +59,11 @@ export const NavBar = () => {
               Pricing
             </NavLink>
             <Nav.Link
-              to="/agreement"
+              href="#services"
               className={
-                activeLink === "agreement"
-                  ? "active navbar-link"
-                  : "navbar-link"
+                activeLink === "services" ? "active navbar-link" : "navbar-link"
               }
-              onClick={() => onUpdateActiveLink("agreement")}
+              onClick={() => onUpdateActiveLink("services")}
             >
               Services
             </Nav.Link>

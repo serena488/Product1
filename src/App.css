@@ -180,6 +180,9 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 nav.navbar .navbar-nav .nav-link.active-link {
 color: orangered;
 }
+nav.navbar .navbar-nav .nav-link.navbar-link:hover {
+  color: orangered;
+  }
 
 nav.navbar a{
   font-weight: 500;

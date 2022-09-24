@@ -2,9 +2,12 @@ import React from "react";
 
 export const Agreement = () => {
   return (
-    <div id="agreement">
-      <h1>Mail us on feedback@geeksforgeeks.org</h1>
-    </div>
+    <section id="agreement">
+      <div className="text-center">
+        <h1>Helloo </h1>
+
+      </div>
+    </section>
   );
 };
 

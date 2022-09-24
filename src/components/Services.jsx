@@ -24,7 +24,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 export const Services = () => {
   return (
-    <section className="Services p-2">
+    <section className="Services p-2" id="services">
       <div className="container p-2 mt-4 align-top myS">
         <h1>Our Services</h1>
         <p>
