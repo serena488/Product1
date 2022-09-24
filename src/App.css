@@ -16,8 +16,28 @@
 }
 @font-face {
 	font-family: Kanit;
-	src: url('./assets/font/JosefinSans-Regular.ttf');
-	font-weight: 400;
+	src: url('./FONTS/Righteous-Regular.ttf');
+	
+}
+@font-face {
+	font-family: Gothic;
+	src: url('./FONTS/DidactGothic-Regular.ttf');
+	
+}
+@font-face {
+	font-family: Raleway;
+	src: url('./FONTS/static/Raleway-Regular.ttf');
+	
+}
+@font-face {
+	font-family: RobotoSlab;
+	src: url('./FONTS/static/RobotoSlab-Regular.ttf');
+	
+}
+@font-face {
+	font-family: Nunito;
+	src: url('./FONTS/NunitoSans-Bold.ttf');
+	
 }
 /************ Default Css ************/
 * {
@@ -38,12 +58,20 @@ body {
   color: black !important;
   font-family: 'Centra', sans-serif !important;
 }
+body p{
+  font-family: Gothic;
+  font-weight: 600;}
+
+  body h1,h2,h3,h5,h6{
+    font-family: Raleway;
+    font-weight: 600;}
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   line-height: normal;
 }
+
 
 p, a, li, button, ul {
   margin: 0;
@@ -81,12 +109,13 @@ input:focus, textarea:focus, select:focus {
 .Strip{
   width: 100%;
   height: 42px;
-  padding: 10px 0 10px 0px;
+  padding: 10px 0 20px 0px;
   background-color: orangered;
   color: white;
   margin-top: 0; 
   background-repeat: no-repeat;
   overflow: hidden;
+  font-family: RobotoSlab;
 }
 .Strip a{
   font-size: 20px;
@@ -130,6 +159,8 @@ nav.navbar {
   height: auto;
   position: sticky;
   top: 0%;
+  font-family: RobotoSlab;
+  
 }
 
 
@@ -183,7 +214,18 @@ span.navbar-text {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  
   } 
+
+  .intro .game p{
+    font-family: RobotoSlab;
+    font-weight: lighter;
+  }
+  
+  .intro .game h3,h4,h1,h2,h5{
+    font-family: RobotoSlab;
+    font-weight: lighter;
+  }
 
   .intro marquee .btn1{
     background-color: orangered; ;
@@ -216,7 +258,7 @@ span.navbar-text {
   /* Banner */
 
 .Banner{
-  padding: 20px 0 20px 0px;
+  padding: 50px 0 20px 0px;
   background-repeat: no-repeat;
   background-color: rgb(235, 232, 232);
   height: auto;
@@ -238,11 +280,12 @@ span.navbar-text {
   color: grey;
   font-size: 14px;
   font-weight: bold;
+  font-family: Gothic;
 }
 
 .Banner .BannerContainer h4{
-  font-weight: bolder;
-  font-family: Kanit;
+  font-weight: bold;
+  font-family: RobotoSlab;
 }
 
 
@@ -256,6 +299,8 @@ span.navbar-text {
   background-repeat: no-repeat;
   background-color: white;
   height: auto + 350px;
+  font-family: Gothic;
+  font-weight: 600;
 
 }
 .myS{
@@ -327,7 +372,9 @@ span.navbar-text {
   padding: 300px 0 300px 0px;
   background-repeat: no-repeat;
   background-color: white;
+  font-family: RobotoSlab;
 }
+
 
 
 .Plan{
@@ -336,6 +383,7 @@ span.navbar-text {
   background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url(".//assets/img/mytruck.jpg");
   background-repeat: no-repeat;
   width: auto;
+  height: auto;
   
 
 }

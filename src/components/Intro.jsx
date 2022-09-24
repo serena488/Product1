@@ -14,9 +14,9 @@ export const Intro = () => {
             className=" text-start text-white m-1  py-4"
             sm={12}
             md={6}
-            xl={6}
+            xl={5}
           >
-            <div className="container">
+            <div className="container game">
               <marquee behavior="slide" direction="down" delay="2s">
                 <h1 className=" ">Dispatch Services</h1>
               </marquee>
@@ -37,8 +37,9 @@ export const Intro = () => {
               </marquee>
             </div>
           </Col>
-          <Col sm={12} md={5} xl={5}>
-            <Test className="p-2  m-2" />
+          <Col sm={0} md={0} xl={0}></Col>
+          <Col sm={12} md={5} xl={6}>
+            <Test className="p-2  m-4" />
           </Col>
         </Row>
       </Container>

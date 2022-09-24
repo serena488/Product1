@@ -14,7 +14,7 @@ export const Footer = () => {
         <div className="site-section">
           <div className="container">
             <div className="row">
-              <div className="col-md pr-md-5 mb-4 mb-md-0">
+              <div className="col-md pr-md-5 mb-4 m-2 mb-md-0">
                 <h3>ABOUT US</h3>
                 <p className="mb-4">
                   We are Truckage Dispatch Services. Experienced trucking
@@ -35,7 +35,7 @@ export const Footer = () => {
                   </li>
                   <li>
                     <a href="#" className="d-flex align-items-center">
-                      <span className="icon mr-3 icon-envelope"></span>{" "}
+                      <span className="icon mr-3 icon-envelope"></span>
                       truckage.dispatch@gmail.com
                     </a>
                   </li>
@@ -54,7 +54,7 @@ export const Footer = () => {
                   />
                 </form>
               </div>
-              <div className="col-md mb-4 mb-md-0">
+              <div className="col-md mb-4 m-2 mb-md-0">
                 <h3> LATEST TWEETS</h3>
 
                 <ul className="list-unstyled tweets">
@@ -92,7 +92,7 @@ export const Footer = () => {
                 </ul>
               </div>
 
-              <div className="col-md-3 mb-4 mb-md-0">
+              <div className="col-md-3 mb-4 m-2 mb-md-0">
                 <h3> INSTAGRAM</h3>
                 <div className="row gallery">
                   <div className="col-6">

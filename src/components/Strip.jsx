@@ -12,7 +12,7 @@ export const Strip = () => {
   return (
     <section className="Strip">
       <div id="STRIP">
-        <Row>
+        <Row className="text-align-top">
           <Col className="col-lg-4 col-md-5 col-sm-5">
             <a>
               <marquee
