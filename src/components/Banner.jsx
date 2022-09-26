@@ -12,7 +12,7 @@ export const Banner = () => {
       <div className="container BannerContainer">
         <Container>
           <Row>
-            <Col sm={12} md={6} xl={3}>
+            <Col sm={12} md={6} xl={4}>
               <Row>
                 <Col sm={12} md={6} xl={6}>
                   <MdCall
@@ -27,7 +27,7 @@ export const Banner = () => {
                 </Col>
               </Row>
             </Col>
-            <Col sm={12} md={6} xl={3}>
+            <Col sm={12} md={6} xl={4}>
               <Row>
                 <Col sm={12} md={6} xl={6}>
                   <BsFillCalendarFill
@@ -42,7 +42,7 @@ export const Banner = () => {
                 </Col>
               </Row>
             </Col>
-            <Col sm={12} md={6} xl={3}>
+            <Col sm={12} md={6} xl={4}>
               <Row>
                 <Col sm={12} md={6} xl={6}>
                   <FaLocationArrow
@@ -56,24 +56,6 @@ export const Banner = () => {
                   <p>
                     300 Kansas Ave, <br />
                     New Jersey, United States
-                  </p>
-                </Col>
-              </Row>
-            </Col>
-            <Col sm={12} md={6} xl={3}>
-              <Row>
-                <Col sm={6} md={6} xl={6}>
-                  <FaGlobe
-                    className="pt-2 mt-2 my-2"
-                    color="orangered"
-                    fontSize="5em"
-                  />
-                </Col>
-                <Col sm={6} md={6} xl={6}>
-                  <h4>GLOBAL OFFICE</h4>
-                  <p>
-                    Japan Headquarter, <br />
-                    New Hall, Tokyo
                   </p>
                 </Col>
               </Row>
