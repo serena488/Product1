@@ -16,7 +16,7 @@ export const Strip = () => {
           <Col className="col-lg-4 col-md-5 col-sm-5">
             <a>
               <marquee
-                className="marquee fw-light"
+                className="marquee fw-bold"
                 behavior="scroll"
                 direction="left"
               >

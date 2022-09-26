@@ -430,8 +430,8 @@ align-items: center;
   text-align: center;
 }
 
-.column:hover{
-  padding-top:90px;
+.body:hover{
+  background-color: rgba(128, 128, 128, 0.295);
 }
 
 @media (min-width: 767px) {
