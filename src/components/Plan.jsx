@@ -17,7 +17,7 @@ export const Plan = () => {
             <div className=" bg-transparent m-2 ">
               <Col>
                 <Row className="heading">
-                  <h3>Bronze Plan </h3>
+                  <h3>Silver Plan </h3>
                 </Row>
                 <Row className="body">
                   <p>
@@ -57,7 +57,7 @@ export const Plan = () => {
                 </Row>
                 <Row className="body hidden-mobile">
                   <p>
-                    <button className="btn btn-outline-dark">
+                    <button className="btn btn3">
                       <RiArrowRightSFill /> READ MORE
                     </button>
                   </p>
@@ -69,7 +69,7 @@ export const Plan = () => {
             <div className="bg-transparent m-2">
               <Col>
                 <Row className="heading ">
-                  <h3>Silver Plan</h3>
+                  <h3>Gold Plan</h3>
                 </Row>
                 <Row className="body hidden-mobile">
                   <p>
@@ -109,7 +109,7 @@ export const Plan = () => {
                 </Row>
                 <Row className="body hidden-mobile">
                   <p>
-                    <button className="btn btn-outline-dark">
+                    <button className="btn btn3">
                       <RiArrowRightSFill /> READ MORE
                     </button>
                   </p>
@@ -122,7 +122,7 @@ export const Plan = () => {
             <div className=" bg-transparent m-2 ">
               <Col>
                 <Row className="heading ">
-                  <h3>Platinum Plan</h3>
+                  <h3>Custom Plan</h3>
                 </Row>
                 <Row className="body text-center">
                   <p>
@@ -162,7 +162,7 @@ export const Plan = () => {
                 </Row>
                 <Row className="body hidden-mobile">
                   <p>
-                    <button className="btn btn-outline-dark">
+                    <button className="btn btn3">
                       <RiArrowRightSFill /> READ MORE
                     </button>
                   </p>

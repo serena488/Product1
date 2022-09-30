@@ -3,16 +3,17 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <link rel="icon" href="%PUBLIC_URL%/truck.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Web site created using create-react-app" />
-  <link rel="apple-touch-icon" href="../src/assets/img/truck.jpeg" />
-  <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+  <link rel="apple-touch-icon" href="../public/truck.ico" />
+  <link rel="stylesheet" href="/public/index.scss" />
+  <!-- manifest.json provides metadata used when your web app is
+    installed on a user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
   <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -23,11 +24,44 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
   <title>Truckage Dispatching Services</title>
+
+
+  <style>
+
+  </style>
+
 </head>
 
 <body>
+
   <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
+
+  <body onload="myFunction()" style="margin:0;">
+    <div id="root">
+
+      <div id="loader"></div>
+
+      <div style="display:none;" id="myDiv" class="animate-bottom">
+        <h2>Tada!</h2>
+        <p>Some text in my newly loaded page..</p>
+      </div>
+
+      <script>
+        var myVar;
+
+        function myFunction() {
+          myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("myDiv").style.display = "block";
+        }
+      </script>
+    </div>
+
+  </body>
+
   <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -38,6 +72,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-</body>
+
 
 </html>

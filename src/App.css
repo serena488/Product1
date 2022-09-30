@@ -291,6 +291,18 @@ span.navbar-text {
   font-family: RobotoSlab;
 }
 
+.Banner .BannerContainer .icon:hover{
+  font-size: 6em;
+  text-align: top;
+}
+
+.Banner .BannerContainer .icon{
+ text-align: center;
+ margin-left: 30px;
+}
+
+
+
 
 
 /* Services */
@@ -306,10 +318,7 @@ span.navbar-text {
   font-weight: 600;
 
 }
-.myS{
-  border-width: 5px;
-  border-left: 5px solid orangered;
-}
+
 
 .myS{
   border-width: 5px;
@@ -382,13 +391,12 @@ span.navbar-text {
 
 .Plan{
  
-  
+  margin-top: 30px;
   background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url(".//assets/img/mytruck.jpg");
   background-repeat: no-repeat;
   width: auto;
   height: auto;
   
-
 }
 
 
@@ -401,6 +409,18 @@ span.navbar-text {
  overflow: hidden;
 justify-content: center;
 align-items: center;
+}
+
+.Plan .PlanContainer .btn3{
+  border: 1px orangered solid;
+  background-color: transparent;
+  color: orangered;
+}
+
+.Plan .PlanContainer .btn3:hover {
+  background-color: orangered; ;
+  color: white;
+
 }
 
 

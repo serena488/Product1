@@ -6,8 +6,6 @@ import Navigation from './navigaton';
 
 
 
-
-
 function App() {
 
 

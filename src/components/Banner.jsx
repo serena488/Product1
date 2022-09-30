@@ -16,7 +16,7 @@ export const Banner = () => {
               <Row>
                 <Col sm={12} md={6} xl={6}>
                   <MdCall
-                    className="pt-2 mt-2 my-2"
+                    className="pt-2 mt-2 my-2 icon"
                     color="orangered"
                     fontSize="5em"
                   />
@@ -31,7 +31,7 @@ export const Banner = () => {
               <Row>
                 <Col sm={12} md={6} xl={6}>
                   <BsFillCalendarFill
-                    className="pt-2 mt-2 my-2"
+                    className="pt-2 mt-2 my-2 icon"
                     color="orangered"
                     fontSize="5em"
                   />
@@ -46,7 +46,7 @@ export const Banner = () => {
               <Row>
                 <Col sm={12} md={6} xl={6}>
                   <FaLocationArrow
-                    className="pt-2 mt-2 my-2"
+                    className="pt-2 mt-2 my-2 icon"
                     color="orangered"
                     fontSize="5em"
                   />
