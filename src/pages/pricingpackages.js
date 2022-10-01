@@ -16,9 +16,9 @@ const Pricing = () => {
       <div className=" border m-4">
         <Container className=" text-center">
           <Row className="game1">
-            <Col></Col>
+            <Col  ></Col>
             <Col ><h3>Custom Plan</h3></Col>
-            <Col><h3>Silver Plan</h3></Col>
+            <Col ><h3>Silver Plan</h3></Col>
             <Col ><h3>Gold Plan</h3></Col>
           </Row>
           <Row className="game1">
@@ -53,15 +53,15 @@ const Pricing = () => {
           </Row>
           <Row className="game1">
             <Col className="text-start">Fax/Email Documents</Col>
-            <Col className="game2">Limited</Col>
-            <Col>Limited</Col>
-            <Col className="game2">Limited</Col>
+            <Col className="game2">Ltd.</Col>
+            <Col>Ltd.</Col>
+            <Col className="game2">Ltd.</Col>
           </Row>
           <Row className="game1">
             <Col className="text-start">Credit Checks</Col>
             <Col className="game2"></Col>
-            <Col>Limited</Col>
-            <Col className="game2">Limited</Col>
+            <Col >Ltd.</Col>
+            <Col className="game2">Ltd.</Col>
           </Row>
           <Row className="game1">
             <Col className="text-start">Personal Dispatcher</Col>
