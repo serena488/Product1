@@ -2,7 +2,7 @@ import React from "react";
 import "../agreement.css"
 export const Agreement = () => {
   return (
-    <section id="agreement">
+    <section id="agreement" className="Agreement" >
 
       <div className="container p-2 mt-4 align-top myS">
         <h1>TDS Agreement</h1>
@@ -225,10 +225,10 @@ export const Agreement = () => {
 
         <br /><br />
         Credit Card Number*
-        <input type="number" placeholder="USDOT#" />
-        Credit Card Number
+        <input type="number" placeholder="Credit Card Number" />
+
         Security Code*
-        <input type="number" placeholder="USDOT#" />
+        <input type="number" placeholder="Security Code" />
         Expiration Month*
         <select id="year" name="year">
           <option>Month</option>
@@ -270,11 +270,11 @@ export const Agreement = () => {
         <input type="text" placeholder="Street Address" />
 
         City*
-        <input type="text" placeholder="Street Address" />
+        <input type="text" placeholder="City" />
         State / Province*
-        <input type="text" placeholder="Street Address" />
+        <input type="text" placeholder="State / Province" />
         Postal / Zip Code*
-        <input type="number" placeholder="USDOT#" />
+        <input type="number" placeholder="Postal / Zip Code" />
         Country*
         <input type="text" placeholder="Country" />
 

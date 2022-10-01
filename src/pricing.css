@@ -1,0 +1,40 @@
+.Container{text-align: center;}
+
+.Row .Col{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.game1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.game2{
+    background-color:  rgb(235, 232, 232) ;
+}
+
+ .game2 .btn3{
+    border: 1px orangered solid;
+    background-color: transparent;
+    color: orangered;
+
+  }
+  
+ .game2 .btn3:hover{
+    background-color: orangered; ;
+    color: white;
+  
+  }
+   .game3 .btn4{
+    border: 1px orangered solid;
+    background-color: transparent;
+    color: orangered;
+
+  }
+  
+ .game3 .btn4:hover{
+    background-color: orangered; ;
+    color: white;
+  
+  }
