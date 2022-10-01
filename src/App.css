@@ -50,6 +50,8 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
+  min-height: 100%!important;
+  background-color: rgb(235, 232, 232);
   
 }
 
@@ -61,6 +63,7 @@ body {
   position: relative;
   color: black !important;
   font-family: 'Centra', sans-serif !important;
+  min-height: 100%!important;
 }
 body p{
   font-family: Gothic;
@@ -112,16 +115,19 @@ input:focus, textarea:focus, select:focus {
 /* loader */
 
 .Loader{
+  margin-top: 0;
+  padding: 200px 0 200px 0px;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
-  width: 100%;
-  height: 650px!important;
   background-color:rgb(235, 232, 232);
 }
 
 .Data{
   position: absolute;
-  top: 45%;
-  left: 45%;
+  top: 50%;
+  left: 41%;
 }
 
 /************ Strip Css ************/

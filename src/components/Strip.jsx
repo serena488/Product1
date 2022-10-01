@@ -20,10 +20,10 @@ export const Strip = () => {
                 behavior="scroll"
                 direction="left"
               >
-                We are available 24/7 ! Hire the most trusted (Truckage Dispatch
-                Services) the Best Truck Dispatching Services in USA, Offers
-                Highly Paying Loads with No CappingVehicle Shipping Company with
-                confidence to ship your car across the United States.
+                We are available 24/7 ! Hire Truckage Dispatch Services, the
+                Best Truck Dispatching Services in USA, Offers Highly Paying
+                Loads with No CappingVehicle Shipping Company with confidence to
+                ship your car across the United States.
               </marquee>
             </a>
           </Col>
