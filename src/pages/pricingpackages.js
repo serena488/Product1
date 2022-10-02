@@ -7,7 +7,7 @@ import { FaDollarSign } from "@react-icons/all-files/fa/FaDollarSign.esm";
 const Pricing = () => {
   return (
     <section id="aboutus" className="Pricing">
-      <div className="container p-2 mt-4 align-top myS">
+      <div className="container p-2 mt-4  align-top myS">
         <h1>Our Packages</h1>
         <p>
 

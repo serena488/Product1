@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './navigaton';
@@ -24,6 +24,7 @@ function App() {
     <div className="App">
       {isLoading === true ?
         <Loading /> : <Navigation />}
+      
 
     </div>
   );
