@@ -5,15 +5,15 @@ font-size: 08px;}
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+.Page{
+  background-color:  rgb(235, 232, 232) ;
+}
 .game1{
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.game2{
-    background-color:  rgb(235, 232, 232) ;
-}
+
 
  .game2 .btn3{
     border: 1px orangered solid;
