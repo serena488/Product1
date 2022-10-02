@@ -23,7 +23,10 @@ export const Banner = () => {
                 </Col>
                 <Col sm={12} md={6} xl={6}>
                   <h4>CALL CENTER</h4>
-                  <p>Give us a free call +1 (980) 485-5274</p>
+                  <p>
+                    Give us a free call <br />
+                    +1 (980) 485-5274
+                  </p>
                 </Col>
               </Row>
             </Col>
@@ -54,8 +57,8 @@ export const Banner = () => {
                 <Col sm={12} md={6} xl={6}>
                   <h4>OUR LOCATION</h4>
                   <p>
-                    300 Kansas Ave, <br />
-                    New Jersey, United States
+                    473 Mundet Place, <br />
+                    Hillside, NJ, US
                   </p>
                 </Col>
               </Row>

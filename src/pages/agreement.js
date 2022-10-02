@@ -83,7 +83,7 @@ export const Agreement = () => {
           <input type="number" placeholder="MC#" />
           and USDOT#*
           <input type="number" placeholder="USDOT#" />
-          hereby grant authorization to Premier Dispatch Services LLC by executing a
+          hereby grant authorization to Truckage Dispatch Services LLC by executing a
           General Power of Attorney (a copy of which is attached to this
           agreement and incorporated by reference) to act as my general agent for the
           purposes of locating and booking freight shipments, processing brokerage paperwork,
@@ -153,7 +153,7 @@ export const Agreement = () => {
           to, MAP-21 and the Carmack Amendment. DISPATCH will take no action to ensure CARRIER compliance,
           and CARRIER agrees to indemnify DISPATCH against any violations of any applicable laws. Upon
           electronic forwarding of all load related
-          documentation to CARRIER by DISPATCH, the DISPATCH services of Premier Dispatch Services LLC have been
+          documentation to CARRIER by DISPATCH, the DISPATCH services of Truckage Dispatch Services LLC have been
           fully performed.<br /><br />
 
           OTHER PROVISIONS DISPATCH bears NO financial or legal responsibility in transactions between BROKER
