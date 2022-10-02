@@ -1,6 +1,10 @@
 .Container{text-align: center;
 font-size: 08px;}
 
+.imageofad{
+  height: 490px;
+ }
+
 .Row .Col{
     padding-top: 10px;
     padding-bottom: 10px;

@@ -3,17 +3,22 @@ import pricing from "../pricing.css"
 import { Row, Col, Container } from "react-bootstrap";
 import { FaCheckCircle } from "@react-icons/all-files/fa/FaCheckCircle.esm";
 import { FaDollarSign } from "@react-icons/all-files/fa/FaDollarSign.esm";
+import Img7 from "../assets/img/HelloAd.jpeg"
 
 const Pricing = () => {
   return (
+
     <section id="aboutus" className="Pricing">
-      <div className="container p-2 mt-4  align-top myS">
+      <img className="imageofad" src={Img7} />
+      <br /><br /><br /><br />
+      <div className="container p-2 mt-2  align-top myS">
+
         <h1>Our Packages</h1>
         <p>
 
         </p>
       </div>
-      <br /><br /><br />
+      <br />
 
 
       <div className="m-4">
@@ -158,15 +163,15 @@ const Pricing = () => {
             <Col className="text-start">Pricing / Plans</Col>
             <Col>
               <button className="btn btn3">
-                <FaDollarSign /> 199
+                <FaDollarSign /> <b>199</b>
               </button></Col>
             <Col className="game3">
               <button className="btn btn4">
-                <FaDollarSign /> 299
+                <FaDollarSign /> <b>299</b>
               </button></Col>
             <Col className="game2 ">
               <button className="btn btn3">
-                5% OFF
+                <b>5% only</b>
               </button></Col>
           </Row>
           <hr />
