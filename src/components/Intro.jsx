@@ -32,7 +32,13 @@ export const Intro = () => {
               </marquee>
 
               <marquee className="mt-4" behavior="slide" direction="down">
-                <button className="btn btn1">Contact Us </button>
+                <a
+                  type="button"
+                  href="https://api.whatsapp.com/send?phone=19804855274"
+                  className="btn btn1"
+                >
+                  Contact Us{" "}
+                </a>
                 <button className="btn btn2">Discover More</button>
               </marquee>
             </div>

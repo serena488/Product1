@@ -59,7 +59,7 @@ export const Plan = () => {
                   <p>
                     <a
                       type="button"
-                      href="/pricing#pricing"
+                      href="https://truckagedispatching.com/pricing#pricing"
                       className="btn btn3"
                     >
                       <RiArrowRightSFill /> READ MORE
@@ -115,7 +115,7 @@ export const Plan = () => {
                   <p>
                     <a
                       type="button"
-                      href="/pricing#pricing"
+                      href="https://truckagedispatching.com/pricing#pricing"
                       className="btn btn3"
                     >
                       <RiArrowRightSFill /> READ MORE
@@ -172,7 +172,7 @@ export const Plan = () => {
                   <p>
                     <a
                       type="button"
-                      href="/pricing#pricing"
+                      href="https://truckagedispatching.com/pricing#pricing"
                       className="btn btn3"
                     >
                       <RiArrowRightSFill /> READ MORE
