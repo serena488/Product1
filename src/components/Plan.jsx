@@ -57,9 +57,13 @@ export const Plan = () => {
                 </Row>
                 <Row className="body hidden-mobile">
                   <p>
-                    <button className="btn btn3">
+                    <a
+                      type="button"
+                      href="/pricing#pricing"
+                      className="btn btn3"
+                    >
                       <RiArrowRightSFill /> READ MORE
-                    </button>
+                    </a>
                   </p>
                 </Row>
               </Col>
@@ -109,9 +113,13 @@ export const Plan = () => {
                 </Row>
                 <Row className="body hidden-mobile">
                   <p>
-                    <button className="btn btn3">
+                    <a
+                      type="button"
+                      href="/pricing#pricing"
+                      className="btn btn3"
+                    >
                       <RiArrowRightSFill /> READ MORE
-                    </button>
+                    </a>
                   </p>
                 </Row>
               </Col>
@@ -162,9 +170,13 @@ export const Plan = () => {
                 </Row>
                 <Row className="body hidden-mobile">
                   <p>
-                    <button className="btn btn3">
+                    <a
+                      type="button"
+                      href="/pricing#pricing"
+                      className="btn btn3"
+                    >
                       <RiArrowRightSFill /> READ MORE
-                    </button>
+                    </a>
                   </p>
                 </Row>
               </Col>
