@@ -3,7 +3,7 @@ import "../agreement.css"
 export const Agreement = () => {
   return (
     <section id="agreement" className="Agreement" >
-
+      <br /><br />
       <div className="container p-2 mt-4 align-top myS">
         <h1>TDS Agreement</h1>
         <p>

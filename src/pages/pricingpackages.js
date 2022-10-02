@@ -178,7 +178,6 @@ const Pricing = () => {
         </Container>
       </div >
 
-
       <br /><br /><br />
     </section >
   );

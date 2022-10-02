@@ -471,3 +471,13 @@ align-items: center;
   padding-right: 0px;
   text-align: center;
 }
+
+.body:hover{
+  background-color: rgba(128, 128, 128, 0.295);
+}
+
+@media (min-width: 767px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
