@@ -2,7 +2,8 @@
 font-size: 08px;}
 
 .imageofad{
-  height: 490px;
+  height: auto;
+  width: 100%;
  }
 
 .Row .Col{

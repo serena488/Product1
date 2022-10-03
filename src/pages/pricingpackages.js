@@ -11,10 +11,10 @@ const Pricing = () => {
     <section id="aboutus" className="Pricing">
       <img className="imageofad" src={Img7} />
       <br /><br /><br /><br />
-      <div className="container p-2 mt-2  align-top myS">
+      <div color="red" className="container m-3   myS">
 
         <h1>Our Packages</h1>
-        <p>
+        <p>Select the desired package from the following.
 
         </p>
       </div>

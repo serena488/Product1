@@ -124,14 +124,22 @@ export const Footer = () => {
                       </a>
                     </div>
                   </div>
+                  <br />
+                  <br />
+                  <br />
                 </div>
+
                 <h3 className="text-start mt-4 ms-4">Follow Us</h3>
                 <hr />
                 <Container className="followup">
                   <Row className="followdown">
-                    <buttons className="btn btn5">
-                      <FaFacebook className="btncolor" fontSize="24px" />
-                    </buttons>
+                    <a type="button" href="https://www.facebook.com/Tds.dispatchservices" className="btn btn5">
+                      <FaFacebook
+                        
+                        className="btncolor"
+                        fontSize="24px"
+                      />
+                    </a>
 
                     <buttons className="btn btn5">
                       <FaTwitter className="btncolor" fontSize="24px" />

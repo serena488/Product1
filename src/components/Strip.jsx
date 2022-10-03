@@ -22,8 +22,7 @@ export const Strip = () => {
               >
                 We are available 24/7 ! Hire Truckage Dispatch Services, the
                 Best Truck Dispatching Services in USA, Offers Highly Paying
-                Loads with No CappingVehicle Shipping Company with confidence to
-                ship your car across the United States.
+                Loads with No Capping.
               </marquee>
             </a>
           </Col>
@@ -46,7 +45,11 @@ export const Strip = () => {
             <a className="fs-5 me-2  text-white">
               <FaTwitter />
             </a>
-            <a className="fs-5 me-2  text-white">
+            <a
+              type="button"
+              href="https://www.facebook.com/Tds.dispatchservices"
+              className="fs-5 me-2  text-white"
+            >
               <FaFacebook />
             </a>
             <a className="fs-5 me-2  text-white">
