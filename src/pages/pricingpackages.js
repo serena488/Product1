@@ -160,8 +160,10 @@ const Pricing = () => {
         <Container className="text-center ">
           <hr />
           <Row className="game2 ms-1">
-            <Col className="text-start">Pricing / Plans</Col>
-            <Col>
+            <Col className="text-start game5">
+              <h5>Pricing / Plans </h5>
+            </Col>
+            <Col >
               <button className="btn btn3">
                 <FaDollarSign /> <b>199</b>
               </button></Col>
@@ -171,7 +173,7 @@ const Pricing = () => {
               </button></Col>
             <Col className="game2 ">
               <button className="btn btn3">
-                <b>5% only</b>
+                <b>6% only</b>
               </button></Col>
           </Row>
           <hr />

@@ -1,9 +1,16 @@
 import React from "react";
-import "../agreement.css"
+import "../agreement.css";
+import Img8 from "../assets/img/agreement.jpg"
 export const Agreement = () => {
   return (
     <section id="agreement" className="Agreement" >
-      <br /><br />
+
+      <div className="imageofagt">
+        <img className="imageofag" src={Img8} />
+      </div>
+      <br /><br /><br /><br />
+
+
       <div className="container p-2 mt-4 align-top myS">
         <h1>TDS Agreement</h1>
         <p>

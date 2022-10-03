@@ -24,27 +24,35 @@ font-size: 08px;}
     border: 1px orangered solid;
     background-color: transparent;
     color: orangered;
-    font-size: 13px;
+    font-size: 15px;
+    width: 53px;
+
 
   }
   
  .game2 .btn3:hover{
     background-color: orangered; ;
     color: white;
-    font-size: 13px;
+    font-size: 15px;
+    width: 53px;
   
   }
    .game3 .btn4{
     border: 1px orangered solid;
     background-color: transparent;
     color: orangered;
-    font-size: 13px;
+    font-size: 15px;
+    width: 50px;
 
+  }
+  .game5{
+    width: 54px;
   }
   
  .game3 .btn4:hover{
     background-color: orangered; ;
     color: white;
-    font-size: 13px;
+    font-size: 15px;
+    width: 53px;
   
   }
