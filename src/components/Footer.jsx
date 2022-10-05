@@ -16,7 +16,7 @@ import { RiArrowRightSFill } from "@react-icons/all-files/ri/RiArrowRightSFill.e
 
 export const Footer = () => {
   return (
-    <section className="Footer" id="aboutus">
+    <section className="Footer">
       <Container>
         <footer className="footer-32892 pb-0">
           <div className="site-section">
@@ -133,7 +133,7 @@ export const Footer = () => {
                 <hr />
                 <Container className="followup">
                   <Row className="followdown">
-                    <a type="button" href="https://www.facebook.com/Tds.dispatchservices" className="btn btn5">
+                    <a href="https://www.facebook.com/Tds.dispatchservices" className="btn btn5">
                       <FaFacebook
                         
                         className="btncolor"
@@ -145,9 +145,10 @@ export const Footer = () => {
                       <FaTwitter className="btncolor" fontSize="24px" />
                     </buttons>
 
-                    <buttons className="btn btn5">
+                    <a className="btn btn5"
+                    href="https://instagram.com/truckage_dispatch?igshid=YmMyMTA2M2Y=">
                       <FaInstagram className="btncolor" fontSize="24px" />
-                    </buttons>
+                    </a>
 
                     <buttons className="btn btn5">
                       <FaYoutube className="btncolor" fontSize="24px" />

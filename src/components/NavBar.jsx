@@ -39,15 +39,16 @@ export const NavBar = () => {
               Home
             </NavLink>
 
-            <Nav.Link
+            <NavLink
               href="#aboutus"
+              to="/about"
               className={
                 activeLink === "aboutus" ? "active navbar-link" : "navbar-link"
               }
               onClick={(aboutus) => onUpdateActiveLink("aboutus")}
             >
               About
-            </Nav.Link>
+            </NavLink>
             <NavLink
               id="pricing"
               to="/pricing#pricing"
@@ -58,15 +59,15 @@ export const NavBar = () => {
             >
               Pricing
             </NavLink>
-            <Nav.Link
-              href="#services"
+            <NavLink
+              to="/faqs"
               className={
                 activeLink === "services" ? "active navbar-link" : "navbar-link"
               }
               onClick={() => onUpdateActiveLink("services")}
             >
-              Services
-            </Nav.Link>
+              FAQ's
+            </NavLink>
             <NavLink
               to="/agreement"
               className={

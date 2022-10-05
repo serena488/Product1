@@ -56,3 +56,53 @@ font-size: 08px;}
     width: 53px;
   
   }
+
+  
+.imageofag{
+  width: 100%;
+  height:auto;
+}
+
+.imageofagt{
+  padding-top: -150px;
+  padding-bottom: -150px;
+}
+
+.Pricingbanner{
+  background:linear-gradient(rgba(0,0,0,0.671),rgba(0, 0, 0, 0.671)), url("../src/assets/img/wp2300425-currency-wallpapers.jpg") ;
+  width: 100%;
+  height: auto;
+  padding: 100px 0 100px 0px;
+background-position: top center;
+background-size: cover;
+background-repeat: no-repeat;
+color: white;
+
+
+}
+
+.Pricing h1 {
+  overflow: hidden;
+  text-align: center;
+}
+
+.Pricing h1:before,
+.Pricing h1:after {
+  background-color: orangered;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.Pricing h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.Pricing h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}

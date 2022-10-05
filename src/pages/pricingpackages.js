@@ -1,5 +1,5 @@
 import React from "react";
-import pricing from "../pricing.css"
+import pricing from "../pricing.css";
 import { Row, Col, Container } from "react-bootstrap";
 import { FaCheckCircle } from "@react-icons/all-files/fa/FaCheckCircle.esm";
 import { FaDollarSign } from "@react-icons/all-files/fa/FaDollarSign.esm";
@@ -8,16 +8,19 @@ import Img7 from "../assets/img/HelloAd.jpeg"
 const Pricing = () => {
   return (
 
-    <section id="aboutus" className="Pricing">
-      <img className="imageofad" src={Img7} />
-      <br /><br /><br /><br />
-      <div color="red" className="container m-3   myS">
-
+    <section className="Pricing">
+      <div className="Pricingbanner">
         <h1>Our Packages</h1>
-        <p>Select the desired package from the following.
+      </div><br /><br />
+      <Container>
+        <div color="red" className="container m-3   myS">
 
-        </p>
-      </div>
+          <h2>Packages</h2>
+          <p>Select the desired package from the following.
+
+          </p>
+        </div>
+      </Container>
       <br />
 
 

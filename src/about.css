@@ -1,20 +1,5 @@
-input,select{
-    width: 100%;
-}
-
-
-.imageofag{
-    width: 100%;
-    height:auto;
-}
-
-.imageofagt{
-    padding-top: -150px;
-    padding-bottom: -150px;
-}
-
-.Agreementbanner{
-    background:linear-gradient(rgba(0,0,0,0.671),rgba(0, 0, 0, 0.671)), url("../src/assets/img/wp10173503-agreement-wallpapers\ \(1\).jpg") ;
+.Aboutbanner{
+    background:linear-gradient(rgba(0,0,0,0.671),rgba(0, 0, 0, 0.671)), url("../src/assets/img/2484190.jpg") ;
     width: 100%;
     height: auto;
     padding: 100px 0 100px 0px;
@@ -26,13 +11,13 @@ input,select{
  
 }
 
-.Agreement h1 {
+.About h1 {
     overflow: hidden;
     text-align: center;
   }
   
-  .Agreement h1:before,
-  .Agreement h1:after {
+  .About h1:before,
+  .About h1:after {
     background-color: orangered;
     content: "";
     display: inline-block;
@@ -42,12 +27,12 @@ input,select{
     width: 50%;
   }
   
-  .Agreement h1:before {
+  .About h1:before {
     right: 0.5em;
     margin-left: -50%;
   }
   
-  .Agreement h1:after {
+  .About h1:after {
     left: 0.5em;
     margin-right: -50%;
   }

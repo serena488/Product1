@@ -52,7 +52,8 @@ export const Strip = () => {
             >
               <FaFacebook />
             </a>
-            <a className="fs-5 me-2  text-white">
+            <a className="fs-5 me-2  text-white"
+            href="https://instagram.com/truckage_dispatch?igshid=YmMyMTA2M2Y=">
               <FaInstagram />
             </a>
             <a className="fs-5 me-2  text-white">
