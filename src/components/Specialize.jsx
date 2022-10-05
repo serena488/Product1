@@ -6,6 +6,7 @@ import Step from "../assets/img/step-deck.jpg";
 import Flatbed from "../assets/img/flatbed.jpg";
 import Dryvan from "../assets/img/dry-van.jpg";
 import Poweronly from "../assets/img/power-only.jpg";
+import Box from "../assets/img/box.jpg";
 
 $("figure").mouseleave(function () {
   $(this).removeClass("hover");
@@ -71,6 +72,17 @@ export const Specialize = () => {
                 <figcaption>
                   <h2>
                     Flat <span> Bed</span>
+                  </h2>
+                </figcaption>
+                <a href="#"></a>
+              </figure>
+            </Col>
+            <Col sm={12} md={6} lg={4}>
+              <figure className="snip1104 red">
+                <img src={Box} alt="sample33" />
+                <figcaption>
+                  <h2>
+                    Box <span> Truck</span>
                   </h2>
                 </figcaption>
                 <a href="#"></a>

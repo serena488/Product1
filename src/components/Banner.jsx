@@ -2,7 +2,7 @@ import React from "react";
 
 import { MdCall } from "@react-icons/all-files/md/MdCall.esm";
 import { BsFillCalendarFill } from "@react-icons/all-files/bs/BsFillCalendarFill.esm";
-import { FaGlobe } from "@react-icons/all-files/fa/FaGlobe.esm";
+import { RiPinDistanceFill } from "@react-icons/all-files/ri/RiPinDistanceFill.esm";
 import { FaLocationArrow } from "@react-icons/all-files/fa/FaLocationArrow.esm";
 import { Col, Container, Row } from "react-bootstrap";
 
@@ -12,7 +12,7 @@ export const Banner = () => {
       <div className="container BannerContainer">
         <Container>
           <Row>
-            <Col sm={12} md={6} xl={4}>
+            <Col sm={12} md={6} xl={3}>
               <Row>
                 <Col sm={12} md={6} xl={6}>
                   <MdCall
@@ -30,7 +30,8 @@ export const Banner = () => {
                 </Col>
               </Row>
             </Col>
-            <Col sm={12} md={6} xl={4}>
+
+            <Col sm={12} md={6} xl={3}>
               <Row>
                 <Col sm={12} md={6} xl={6}>
                   <BsFillCalendarFill
@@ -45,7 +46,7 @@ export const Banner = () => {
                 </Col>
               </Row>
             </Col>
-            <Col sm={12} md={6} xl={4}>
+            <Col sm={12} md={6} xl={3}>
               <Row>
                 <Col sm={12} md={6} xl={6}>
                   <FaLocationArrow
@@ -60,6 +61,21 @@ export const Banner = () => {
                     473 Mundet Place, <br />
                     Hillside, NJ, US
                   </p>
+                </Col>
+              </Row>
+            </Col>
+            <Col sm={12} md={6} xl={3}>
+              <Row>
+                <Col sm={12} md={6} xl={6}>
+                  <RiPinDistanceFill
+                    className="pt-2 mt-2 my-2 icon"
+                    color="orangered"
+                    fontSize="5em"
+                  />
+                </Col>
+                <Col sm={12} md={6} xl={6}>
+                  <h4>Long Distance</h4>
+                  <p>Long Distance move for OTR Carriers.</p>
                 </Col>
               </Row>
             </Col>
