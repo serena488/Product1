@@ -284,6 +284,8 @@ export const Agreement = () => {
         <input type="number" placeholder="Postal / Zip Code" />
         Country*
         <input type="text" placeholder="Country" />
+        Signature*
+        <canvas width="300px" height="300px"></canvas>
 
 
 

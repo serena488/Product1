@@ -6,6 +6,7 @@ import { Footer } from "../components/Footer";
 import { NavBar } from "../components/NavBar";
 import { Strip } from "../components/Strip";
 
+
 const Navigation = () => {
 
     return (
