@@ -1,7 +1,19 @@
+
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+
+.imaagee{
+ width: 200px;
+ height: 100px;
+}
+
 input,select{
     width: 100%;
 }
 
+.HIII {
+  background-color: rgb(235, 232, 232);
+}
 
 .imageofag{
     width: 100%;
