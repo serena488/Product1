@@ -10,7 +10,7 @@ export const Banner = () => {
   return (
     <section className="Banner" id="contact">
       <div className="container BannerContainer">
-        <Container>
+        
           <Row>
             <Col sm={12} md={6} xl={3}>
               <Row>
@@ -80,7 +80,7 @@ export const Banner = () => {
               </Row>
             </Col>
           </Row>
-        </Container>
+        
       </div>
     </section>
   );

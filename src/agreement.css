@@ -10,6 +10,9 @@
 input,select{
     width: 100%;
 }
+#actionBtn .e-btn{
+  margin: 2%;
+}
 
 .HIII {
   background-color: rgb(235, 232, 232);

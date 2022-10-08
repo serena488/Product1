@@ -17,14 +17,14 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 2500)
+    }, 1500)
   })
 
   return (
     <div className="App">
       {isLoading === true ?
         <Loading /> : <Navigation />}
-      
+
 
     </div>
   );

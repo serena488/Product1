@@ -3,7 +3,7 @@ import pricing from "../pricing.css";
 import { Row, Col, Container } from "react-bootstrap";
 import { FaCheckCircle } from "@react-icons/all-files/fa/FaCheckCircle.esm";
 import { FaDollarSign } from "@react-icons/all-files/fa/FaDollarSign.esm";
-import Img7 from "../assets/img/HelloAd.jpeg"
+
 
 const Pricing = () => {
   return (

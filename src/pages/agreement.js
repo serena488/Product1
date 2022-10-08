@@ -5,54 +5,71 @@ import "../agreement.css";
 import emailjs from "@emailjs/browser";
 
 import Img8 from "../assets/img/agreement.jpg";
-import SignaturePad from 'react-signature-canvas'
-import styles from './styles.module.css'
+import { SignatureComponent, Signature } from '@syncfusion/ej2-react-inputs';
+import { ButtonComponent } from "@syncfusion/ej2-react-buttons";
 
 
 
 
 const Agreement = () => {
 
-  const [formSubmitionStatus, setFormSubmitionStatus] =
-    useState("notSubmitted");
 
-  useEffect(() => {
-    if (formSubmitionStatus === "submitted") {
-    }
-  }, [formSubmitionStatus]);
+  // const [formSubmitionStatus, setFormSubmitionStatus] =
+  //   useState("notSubmitted");
 
-  const form = useRef();
+  // useEffect(() => {
+  //   if (formSubmitionStatus === "submitted") {
+  //   }
+  // }, [formSubmitionStatus]);
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const form = useRef();
 
-    emailjs
-      .sendForm(
-        "service_3yit61r",
-        "template_hj4lnkv",
-        form.current,
-        "CEqhc-QEsEKVy3vzA"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          console.log("message sent");
-          setFormSubmitionStatus();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    form.current.reset();
-    alert("info send successfully");
+  //   emailjs
+  //     .sendForm(
+  //       "service_3yit61r",
+  //       "template_hj4lnkv",
+  //       form.current,
+  //       "CEqhc-QEsEKVy3vzA"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //         console.log("message sent");
+  //         setFormSubmitionStatus();
 
-
-  };
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  //   form.current.reset();
+  //   alert("info send successfully");
 
 
+  // };
 
 
+  // var canvas = document.getElementById("signature-pad");
+
+  // function resizeCanvas() {
+  //     var ratio = Math.max(window.devicePixelRatio || 1, 1);
+  //     canvas.width = canvas.offsetWidth * ratio;
+  //     canvas.height = canvas.offsetHeight * ratio;
+  //     canvas.getContext("2d").scale(ratio, ratio);
+  // }
+  // window.onresize = resizeCanvas;
+  // resizeCanvas();
+
+  // var signaturePad = new SignaturePad(canvas, {
+  //  backgroundColor: 'rgb(250,250,250)'
+  // });
+
+  // document.getElementById("clear").addEventListener('click', function(){
+  //  signaturePad.clear();
+  // })
 
   return (
 
@@ -61,8 +78,6 @@ const Agreement = () => {
       <div className="Agreementbanner">
         <h1>TDS Agreement</h1>
       </div>
-
-
 
 
       <div className="container p-2 mt-4 align-top">
@@ -75,7 +90,8 @@ const Agreement = () => {
         </div><br />
         <Container className="border p-4 HIII my-4">
 
-          <form ref={form} onSubmit={sendEmail}>
+          {/* <form ref={form} onSubmit={sendEmail}> */}
+          <form>
 
 
             <p>This Dispatcher Agency Agreement (AGREEMENT) is made on <input name="date" type="date" />
@@ -344,9 +360,16 @@ const Agreement = () => {
             <input type="number" name="postal" placeholder="Postal / Zip Code" />
             Country*
             <input type="text" name="country" placeholder="Country" />
+            Sign*
             <br />
-            <SignaturePad id="signature" name="sign" />
-
+            <div class="flex-row">
+              <div class="wrapper">
+                <canvas id="signature-pad" width="400" height="200"></canvas>
+              </div>
+              <div class="clear-btn">
+                <button id="clear"><span> Clear </span></button>
+              </div>
+            </div>
             <br />
             <button type="submit" className="btn btn-warning mt-4">
               Submit
@@ -355,7 +378,7 @@ const Agreement = () => {
           </form>
         </Container>
       </div>
-
+      <script src="signature_pad.js"></script>
 
     </section >
   );
