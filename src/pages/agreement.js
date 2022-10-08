@@ -172,9 +172,10 @@ const Agreement = () => {
               purposes of locating and booking freight shipments, processing brokerage paperwork,
               and obtaining Certificate of Liability Insurance from CARRIER'S insurance agents listing
               BROKER as Certificate Holder. Under the terms of this General Power of Attorney and the general
-              rules of law following agents, the CARRIER is the principal and the DISPATCH is the agent.
+              rules of law following agents, the CARRIER is the principal and the DISPATCH is the agent.</p>
               <hr />
               <h4>DISPATCH OBLIGATIONS</h4><br />
+              <p>
               DISPATCH will tend to necessary load related documentation and communication over phone,
               fax, or email including set-up documents (carrier packet) listing DISPATCH as primary contact,
               rate confirmations, certificates of liability insurance with BROKER listed as Certificate Holder,
@@ -285,11 +286,12 @@ const Agreement = () => {
               In the event that DISPATCH books a load matching the CARRIER'S truck posting, the CARRIER
               agrees to pay DISPATCH as agreed to in the Carrier Obligations section of the AGREEMENT.
               <br /><br /></p>
+              <p>
             <b>
               NOTE: To avoid charges for unavailable equipment, it is very important to notify
               DISPATCH immediately if the truck is loaded from another source. CARRIER agrees
               to notify DISPATCH on the day the truck or trucks are available for dispatch
-              and to advise DISPATCH of any immediate status change or delays.</b>
+              and to advise DISPATCH of any immediate status change or delays.</b></p>
             <br /><hr /><br />
             <h4>Credit Card Information Form</h4>
             <p>

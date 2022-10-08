@@ -5,7 +5,7 @@ import { FaFacebook } from "@react-icons/all-files/fa/FaFacebook.esm";
 import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter.esm";
 import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram.esm";
 import { FaYoutube } from "@react-icons/all-files/fa/FaYoutube.esm";
-import { FaPinterest } from "@react-icons/all-files/fa/FaPinterest.esm";
+import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { Row, Col } from "react-bootstrap";
 
 export const Strip = () => {
@@ -56,8 +56,8 @@ export const Strip = () => {
             href="https://instagram.com/truckage_dispatch?igshid=YmMyMTA2M2Y=">
               <FaInstagram />
             </a>
-            <a className="fs-5 me-2  text-white">
-              <FaPinterest />
+            <a href="https://www.linkedin.com/company/truckage-dispatch-services/" className="fs-5 me-2  text-white">
+              <FaLinkedin />
             </a>
           </Col>
         </Row>

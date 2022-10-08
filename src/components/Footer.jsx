@@ -5,19 +5,19 @@ import Img1 from "../assets/img/img_1.jpg";
 import Img2 from "../assets/img/img_2.jpg";
 import Img3 from "../assets/img/img_3.jpg";
 import Img4 from "../assets/img/img_4.jpg";
-import Img5 from "../assets/img/louis-04.png";
+import Img5 from "../assets/img/louis-06.png";
 import { FaFacebook } from "@react-icons/all-files/fa/FaFacebook.esm";
 import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter.esm";
 import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram.esm";
 import { FaYoutube } from "@react-icons/all-files/fa/FaYoutube.esm";
-import { FaPinterest } from "@react-icons/all-files/fa/FaPinterest.esm";
+import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { Row, Col, Container } from "react-bootstrap";
 import { RiArrowRightSFill } from "@react-icons/all-files/ri/RiArrowRightSFill.esm";
 
 export const Footer = () => {
   return (
     <section className="Footer">
-      <Container>
+      
         <footer className="footer-32892 pb-0">
           <div className="site-section">
             <div className="container">
@@ -154,9 +154,9 @@ export const Footer = () => {
                       <FaYoutube className="btncolor" fontSize="24px" />
                     </buttons>
 
-                    <buttons className="btn btn5">
-                      <FaPinterest className="btncolor" fontSize="24px" />
-                    </buttons>
+                    <a href="https://www.linkedin.com/company/truckage-dispatch-services/" className="btn btn5">
+                      <FaLinkedin className="btncolor" fontSize="24px" />
+                    </a>
                   </Row>
                 </Container>
 
@@ -173,7 +173,7 @@ export const Footer = () => {
             </div>
           </div>
         </footer>
-      </Container>
+      
     </section>
   );
 };
