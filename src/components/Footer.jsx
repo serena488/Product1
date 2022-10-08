@@ -41,30 +41,19 @@ export const Footer = () => {
                   <ul className="list-unstyled quick-info mb-4">
                     <li>
                       <a href="#" className="d-flex align-items-center">
-                        <span className="icon mr-3 icon-phone"></span> +1 291
-                        3912 329
+                        <span className="icon mr-3 icon-phone"></span>Call: <u className="ms-2">+1 291
+                        3912 329</u>
                       </a>
                     </li>
                     <li>
                       <a href="#" className="d-flex align-items-center">
                         <span className="icon mr-3 icon-envelope"></span>
-                        truckage.dispatch@gmail.com
+                       Email:<u className="ms-2">truckage.dispatch@gmail.com</u>
                       </a>
                     </li>
                   </ul>
 
-                  <form action="#" className="subscribe">
-                    <input
-                      type="text"
-                      className="form-control"
-                      placeholder="Enter your e-mail"
-                    />
-                    <input
-                      type="submit"
-                      className="btn btn-submit"
-                      value="Send"
-                    />
-                  </form>
+                  
                 </div>
                 <div className="col-md mb-4 m-2 mb-md-0">
                   <h3> LATEST TWEETS</h3>
