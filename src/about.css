@@ -26,17 +26,15 @@
     vertical-align: middle;
     width: 50%;
   }
-  .About .jango{
-    width: 550px;
-    height: 400x;
-    padding-left: 50px;
+  /* .About .jango{
+    width: auto;
+    height: 300px;
   }
   
   .About .jangol{
-    width: 500px;
+    width: auto;
     height: 400px;
-    padding-left: 50px;
-  }
+  } */
   
 
   .About h1:before {
