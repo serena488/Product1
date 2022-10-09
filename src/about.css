@@ -26,7 +26,19 @@
     vertical-align: middle;
     width: 50%;
   }
+  .About .jango{
+    width: 550px;
+    height: 400x;
+    padding-left: 50px;
+  }
   
+  .About .jangol{
+    width: 500px;
+    height: 400px;
+    padding-left: 50px;
+  }
+  
+
   .About h1:before {
     right: 0.5em;
     margin-left: -50%;
