@@ -5,9 +5,6 @@ import "../agreement.css";
 import emailjs from "@emailjs/browser";
 
 import Img8 from "../assets/img/agreement.jpg";
-import { SignatureComponent, Signature } from '@syncfusion/ej2-react-inputs';
-import { ButtonComponent } from "@syncfusion/ej2-react-buttons";
-
 
 
 
@@ -88,17 +85,18 @@ const Agreement = () => {
 
           </p>
         </div><br />
+        <div>
         <Container className="border p-4 HIII my-4">
 
           {/* <form ref={form} onSubmit={sendEmail}> */}
           <form>
 
 
-            <p>This Dispatcher Agency Agreement (AGREEMENT) is made on <input name="date" type="date" />
+            <p>This Dispatcher Agency Agreement (AGREEMENT) is made on <input className="ms-1 me-1" name="date" type="date" />
               by and between Truckage Dispatch Services, (hereinafter referred to as 'DISPATCH'), and<br /><br />
-              First Name: <input type="text" name="fname" placeholder="First Name" /> <br /><br />
-              Last Name:  <input type="text" name="lname" placeholder="Last Name" /><br /><br />
-              Carrier:    <input type="text" name="carrier" placeholder="Carrier" /><br /><br /><br /><br />
+              First Name:<br /> <input type="text" name="fname" placeholder="First Name" /> <br /><br />
+              Last Name:<br />  <input type="text" name="lname" placeholder="Last Name" /><br /><br />
+              Carrier: <br />   <input type="text" name="carrier" placeholder="Carrier" /><br /><br /><br /><br />
 
 
 
@@ -158,14 +156,14 @@ const Agreement = () => {
                 <option value="WI">Wisconsin</option>
                 <option value="WY">Wyoming</option>
               </select> (hereinafter referred to as 'CARRIER').
-              I * <input type="text" name="mfname" placeholder="First Name" /><br />
-              <input type="text" name="msname" placeholder="Second Name" /><br />
-              <input type="text" name="mlname" placeholder="Last Name" />
-              the owner of <input type="text" name="company" placeholder="Company" /><br /><br />
-              (CARRIER) A licensed Motor Carrier, MC#
-              <input name="mc" type="number" placeholder="MC#" />
+              I * <input className="ms-1 me-1" type="text" name="mfname" placeholder="First Name" />
+              <input className="ms-1 me-1" type="text" name="msname" placeholder="Second Name" />
+              <input className="ms-1 me-1" type="text" name="mlname" placeholder="Last Name" />
+              the owner of <input className="ms-1 me-1"  type="text" name="company" placeholder="Company" />
+               (CARRIER) A licensed Motor Carrier, MC#
+              <input className="ms-1 me-1"  name="mc" type="number" placeholder="MC#" />
               and USDOT#*
-              <input name="mc" type="number" placeholder="USDOT#" />
+              <input className="ms-1 me-1"  name="mc" type="number" placeholder="USDOT#" />
               hereby grant authorization to Truckage Dispatch Services LLC by executing a
               General Power of Attorney (a copy of which is attached to this
               agreement and incorporated by reference) to act as my general agent for the
@@ -303,20 +301,20 @@ const Agreement = () => {
               account instead. Credit Card Form - $1.00 Charge for every year * Dispatch Truck Services
               ($1.00 for each year of service) Total: $ 1.00
             </p>
-
-            <input name="ccard" type="text" placeholder="Credit Card" />
-            <input name="cfname" type="text" placeholder="First Name" />
-            <input type="text" name="clname" placeholder="Last Name" />
+            <br />
+            <input name="ccard" type="text" placeholder="Credit Card" /><br />
+            <input name="cfname" type="text" placeholder="First Name" /><br />
+            <input type="text" name="clname" placeholder="Last Name" /><br />
 
             <br /><br />
-            Credit Card Number*
-            <input type="number" name="ccnumber" placeholder="Credit Card Number" />
+            Credit Card Number*<br />
+            <input type="number" name="ccnumber" placeholder="Credit Card Number" /><br />
 
-            Security Code*
-            <input type="number" name="scode" placeholder="Security Code" />
-            Expiration Month*
-            <select id="year" name="emonth">
-              <option>Month</option>
+            Security Code*<br />
+            <input type="number" name="scode" placeholder="Security Code" /><br />
+            Expiration Month*<br />
+            <select id="year" name="emonth"><br />
+              <option>Month</option><br />
 
               <option value="2011">01</option>
               <option value="2012">02</option>
@@ -330,10 +328,10 @@ const Agreement = () => {
               <option value="2020">10</option>
               <option value="2021">11</option>
               <option value="2022">12</option>
-            </select>
+            </select><br />
 
-            Expiration Year*
-            <select id="year" name="eyear">
+            Expiration Year*<br />
+            <select id="year" name="eyear"><br />
               <option>Year</option>
 
               <option value="2011">22</option>
@@ -348,39 +346,30 @@ const Agreement = () => {
               <option value="2020">31</option>
               <option value="2021">32</option>
               <option value="2022">33</option>
-            </select>
-            Billing Address*
-            <input type="text" name="baddress" placeholder="Billing Address" />
-            Street Address*
-            <input type="text" name="saddress" placeholder="Street Address" />
+            </select><br />
+            Billing Address*<br />
+            <input type="text" name="baddress" placeholder="Billing Address" /><br />
+            Street Address*<br />
+            <input type="text" name="saddress" placeholder="Street Address" /><br />
 
-            City*
-            <input type="text" name="city" placeholder="City" />
-            State / Province*
-            <input type="text" name="cstate" placeholder="State / Province" />
-            Postal / Zip Code*
-            <input type="number" name="postal" placeholder="Postal / Zip Code" />
-            Country*
-            <input type="text" name="country" placeholder="Country" />
-            Sign*
+            City*<br />
+            <input type="text" name="city" placeholder="City" /><br />
+            State / Province*<br />
+            <input type="text" name="cstate" placeholder="State / Province" /><br />
+            Postal / Zip Code*<br />
+            <input type="number" name="postal" placeholder="Postal / Zip Code" /><br />
+            Country*<br />
+            <input type="text" name="country" placeholder="Country" /><br />
             <br />
-            <div class="flex-row">
-              <div class="wrapper">
-                <canvas id="signature-pad" width="400" height="200"></canvas>
-              </div>
-              <div class="clear-btn">
-                <button id="clear"><span> Clear </span></button>
-              </div>
-            </div>
-            <br />
+            
             <button type="submit" className="btn btn-warning mt-4">
               Submit
             </button>
             <br />
           </form>
         </Container>
+        </div>
       </div>
-      <script src="signature_pad.js"></script>
 
     </section >
   );

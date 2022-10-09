@@ -38,18 +38,13 @@ export const Footer = () => {
                     brokers, etc. We also can provide dedicated service for your
                     dedicated lanes if needed.
                   </p>
-                  <ul className="list-unstyled quick-info mb-4">
+                  <ul className="list-unstyled quick-info mb-4 fs-2">
                     <li>
-                      <a href="#" className="d-flex align-items-center">
-                        <span className="icon mr-3 icon-phone"></span>Call: <u className="ms-2">+1 291
-                        3912 329</u>
-                      </a>
+                      <u><b>Call:</b></u> +1 (980) 485-5274
+                      
                     </li>
                     <li>
-                      <a href="#" className="d-flex align-items-center">
-                        <span className="icon mr-3 icon-envelope"></span>
-                       Email:<u className="ms-2">truckage.dispatch@gmail.com</u>
-                      </a>
+                     <u><b>Email:</b></u> truckage.dispatch@gmail.com
                     </li>
                   </ul>
 
@@ -97,18 +92,18 @@ export const Footer = () => {
                   <h3> INSTAGRAM</h3>
                   <div className="row gallery">
                     <div className="col-6">
-                      <a href="#">
+                      <a href="https://instagram.com/truckage_dispatch?igshid=YmMyMTA2M2Y=">
                         <img src={Img4} alt="Image" className="img-fluid" />
                       </a>
-                      <a href="#">
+                      <a href="https://instagram.com/truckage_dispatch?igshid=YmMyMTA2M2Y=">
                         <img src={Img1} alt="Image" className="img-fluid" />
                       </a>
                     </div>
                     <div className="col-6">
-                      <a href="#">
+                      <a href="https://instagram.com/truckage_dispatch?igshid=YmMyMTA2M2Y=">
                         <img src={Img2} alt="Image" className="img-fluid" />
                       </a>
-                      <a href="#">
+                      <a href="https://instagram.com/truckage_dispatch?igshid=YmMyMTA2M2Y=">
                         <img src={Img3} alt="Image" className="img-fluid" />
                       </a>
                     </div>

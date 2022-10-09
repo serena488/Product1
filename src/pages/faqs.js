@@ -18,10 +18,12 @@ const FAQS = () => {
                     <h2>Let's Solve your Queries...</h2>
                 </div>
                 <Container className="border text-center">
-                <Accordion className="mt-4 my-4">
-                    <Accordion.Item className="item" eventKey="0">
-                        <Accordion.Header className="item"><h4>Accordion Item</h4></Accordion.Header>
-                        <Accordion.Body>
+                <Accordion flush className="mt-4 my-4">
+
+                    <Accordion.Item  eventKey="0">
+
+                        <Accordion.Header><h4>Accordion Item</h4></Accordion.Header>
+                        <Accordion.Body className="bodys">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                             minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -31,9 +33,9 @@ const FAQS = () => {
                             culpa qui officia deserunt mollit anim id est laborum.
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item className="item" eventKey="1">
-                        <Accordion.Header className="item"><h4>Accordion Item</h4></Accordion.Header>
-                        <Accordion.Body>
+                    <Accordion.Item  eventKey="1">
+                        <Accordion.Header ><h4>Accordion Item</h4></Accordion.Header>
+                        <Accordion.Body className="bodys">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                             minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -43,9 +45,9 @@ const FAQS = () => {
                             culpa qui officia deserunt mollit anim id est laborum.
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item className="item" eventKey="2">
-                        <Accordion.Header className="item"><h4>Accordion Item</h4></Accordion.Header>
-                        <Accordion.Body>
+                    <Accordion.Item  eventKey="2">
+                        <Accordion.Header ><h4>Accordion Item</h4></Accordion.Header>
+                        <Accordion.Body className="bodys">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                             minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -55,9 +57,9 @@ const FAQS = () => {
                             culpa qui officia deserunt mollit anim id est laborum.
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item className="item" eventKey="3">
-                        <Accordion.Header className="item"><h4>Accordion Item</h4></Accordion.Header>
-                        <Accordion.Body>
+                    <Accordion.Item eventKey="3">
+                        <Accordion.Header ><h4>Accordion Item</h4></Accordion.Header>
+                        <Accordion.Body className="bodys">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                             minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -67,9 +69,9 @@ const FAQS = () => {
                             culpa qui officia deserunt mollit anim id est laborum.
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item className="item" eventKey="4">
-                        <Accordion.Header className="item"><h4>Accordion Item</h4></Accordion.Header>
-                        <Accordion.Body>
+                    <Accordion.Item  eventKey="4">
+                        <Accordion.Header ><h4>Accordion Item</h4></Accordion.Header>
+                        <Accordion.Body className="bodys">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                             minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -79,9 +81,9 @@ const FAQS = () => {
                             culpa qui officia deserunt mollit anim id est laborum.
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item className="item" eventKey="5">
-                        <Accordion.Header className="item"><h4>Accordion Item</h4></Accordion.Header>
-                        <Accordion.Body>
+                    <Accordion.Item  eventKey="5">
+                        <Accordion.Header ><h4>Accordion Item</h4></Accordion.Header>
+                        <Accordion.Body className="bodys">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                             minim veniam, quis nostrud exercitation ullamco laboris nisi ut

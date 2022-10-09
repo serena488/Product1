@@ -10,6 +10,30 @@
   color: white;  
   }
 
+  .accordion-button {
+    background-color: rgb(235, 232, 232) !important;
+    margin-bottom: 3px;
+    border-left: 5px solid orangered;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+
+  .bodys{
+    border-right: 2px solid white;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    color: #212529;
+  }
+
+
+.bodys{
+  background-color: orangered;
+  color: white;
+  border-left: 5px solid white;
+}
   .FAQSS{
    height: 200vh;
   }
