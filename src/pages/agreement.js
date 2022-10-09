@@ -86,6 +86,7 @@ const Agreement = () => {
           </p>
         </div><br />
         <div>
+          <hr />
         <Container className="border p-4 HIII my-4">
 
           {/* <form ref={form} onSubmit={sendEmail}> */}

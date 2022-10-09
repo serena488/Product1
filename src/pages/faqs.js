@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Accordion from 'react-bootstrap/Accordion';
+import { FaQuora } from "@react-icons/all-files/fa/FaQuora";
 
 import "../faqs.css";
 
@@ -13,16 +14,19 @@ const FAQS = () => {
                 </div>
             </div>
             <Container>
+                
                 <div className="container p-2 mt-4 align-top my-4 myS">
                     <p>FAQ's</p>
                     <h2>Let's Solve your Queries...</h2>
                 </div>
-                <Container className="border text-center">
+                <hr className="my-4" />
+                <Container className="border text-center mt-4">
+                    
                 <Accordion flush className="mt-4 my-4">
 
                     <Accordion.Item  eventKey="0">
 
-                        <Accordion.Header><h4>Accordion Item</h4></Accordion.Header>
+                        <Accordion.Header><h4><FaQuora className="me-2" color="orangered" fontSize="27px" />: Accordion Item</h4></Accordion.Header>
                         <Accordion.Body className="bodys">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -34,7 +38,7 @@ const FAQS = () => {
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item  eventKey="1">
-                        <Accordion.Header ><h4>Accordion Item</h4></Accordion.Header>
+                        <Accordion.Header ><h4><FaQuora className="me-2" color="orangered" fontSize="27px" />: Accordion Item</h4></Accordion.Header>
                         <Accordion.Body className="bodys">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -46,7 +50,7 @@ const FAQS = () => {
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item  eventKey="2">
-                        <Accordion.Header ><h4>Accordion Item</h4></Accordion.Header>
+                        <Accordion.Header ><h4><FaQuora className="me-2" color="orangered" fontSize="27px" />: Accordion Item</h4></Accordion.Header>
                         <Accordion.Body className="bodys">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -58,7 +62,7 @@ const FAQS = () => {
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
-                        <Accordion.Header ><h4>Accordion Item</h4></Accordion.Header>
+                        <Accordion.Header ><h4><FaQuora className="me-2" color="orangered" fontSize="27px" />: Accordion Item</h4></Accordion.Header>
                         <Accordion.Body className="bodys">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -70,7 +74,7 @@ const FAQS = () => {
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item  eventKey="4">
-                        <Accordion.Header ><h4>Accordion Item</h4></Accordion.Header>
+                        <Accordion.Header ><h4><FaQuora className="me-2" color="orangered" fontSize="27px" />: Accordion Item</h4></Accordion.Header>
                         <Accordion.Body className="bodys">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -82,7 +86,7 @@ const FAQS = () => {
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item  eventKey="5">
-                        <Accordion.Header ><h4>Accordion Item</h4></Accordion.Header>
+                        <Accordion.Header ><h4><FaQuora className="me-2" color="orangered" fontSize="27px" />: Accordion Item</h4></Accordion.Header>
                         <Accordion.Body className="bodys">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

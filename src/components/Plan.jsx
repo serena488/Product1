@@ -1,4 +1,5 @@
 import "../plan.css";
+import { NavLink } from "react-router-dom";
 
 import { GiCheckMark } from "@react-icons/all-files/gi/GiCheckMark.esm";
 
@@ -57,13 +58,13 @@ export const Plan = () => {
                 </Row>
                 <Row className="body hidden-mobile">
                   <p>
-                    <a
-                      type="button"
-                      href="/pricing#pricing"
-                      className="btn btn3"
-                    >
-                      <RiArrowRightSFill /> READ MORE
-                    </a>
+                  <NavLink
+              id="pricing"
+              to="/pricing#pricing"
+              className="btn btn3" type="button">
+              <RiArrowRightSFill /> READ MORE
+            </NavLink>
+                  
                   </p>
                 </Row>
               </Col>
@@ -113,13 +114,12 @@ export const Plan = () => {
                 </Row>
                 <Row className="body hidden-mobile">
                   <p>
-                    <a
-                      type="button"
-                      href="/pricing#pricing"
-                      className="btn btn3"
-                    >
-                      <RiArrowRightSFill /> READ MORE
-                    </a>
+                  <NavLink
+              id="pricing"
+              to="/pricing#pricing"
+              className="btn btn3" type="button">
+              <RiArrowRightSFill /> READ MORE
+            </NavLink>
                   </p>
                 </Row>
               </Col>
@@ -170,13 +170,12 @@ export const Plan = () => {
                 </Row>
                 <Row className="body hidden-mobile">
                   <p>
-                    <a
-                      type="button"
-                      href="/pricing#pricing"
-                      className="btn btn3"
-                    >
-                      <RiArrowRightSFill /> READ MORE
-                    </a>
+                    <NavLink
+                    id="pricing"
+                    to="/pricing#pricing"
+                    className="btn btn3" type="button">
+                    <RiArrowRightSFill /> READ MORE
+                  </NavLink>
                   </p>
                 </Row>
               </Col>

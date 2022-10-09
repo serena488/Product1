@@ -13,6 +13,9 @@ const About = () => {
 
           <h2>About Our Comapany</h2>
         </div>
+        <Container className="mt-4">
+        <hr />
+        </Container>
 
       </div>
     </section>)
