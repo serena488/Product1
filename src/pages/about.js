@@ -19,13 +19,10 @@ const About = () => {
         <Container className="mt-4">
           <hr />
           <Row className="mt-4 my-4">
-            <Col sm={12} md={5} sm={5}> <p>We have multiple dispatch service plans to choose from.
-              Imagine never having to endlessly search load boards or fill out and fax paperwork again. We take care of the busy work so you can do what your paid to do – drive.
-              Bottom line, our dispatch services help save truckers time & money.
-              We provide options on our flat-rate fees. You know what you want so we provide three separate plans to choose from.
-              A Paperwork only, Basic and Professional plan.
-              So why pay another trucking dispatch service 10% or more on every load? Because of this,
-              Truckage Dispatch Services came up with a ‘one stop shop’ for all your trucking dispatch needs.</p></Col>
+            <Col sm={12} md={5} sm={5}> <p>Truckage Dispatch Services is the US's most trusted independent freight dispatching company.
+              TDS offers highly paying loads by targeting hot lanes to owner-operators and carriers to enhance
+              their revenues. TDS Sales & Dispatch Team are well experienced. With our expertise and years
+              of experience, we have built a good reputation in freight dispatching.</p></Col>
             <Col sm={12} md={7} sm={7} ><img className="jango" src={Jango} /></Col>
           </Row>
           <Row className="mt-4 my-4">
@@ -37,15 +34,19 @@ const About = () => {
                 <h3>Our Mission</h3>
               </div>
               <hr />
-              <p>Our mission at Truckage Dispatch is to provide an unparalleled level of service to our clients by building
-                strong relationships with our clients and aiding them in running a prosperous business.</p></Col>
+              <p>TDS understands how frustrating and hard to negotiate with the brokers and handle long
+                paperwork, billing, and Logistics, this is why TDS helps Owner Operators and Carriers to just
+                focus on picking up the load and delivering it. Rest of the things TDS we cover, we will handle
+                your paperwork, billing, back office, and logistics to make your move smooth, which leads you
+                to just focus on the road and make good money, Our mission is to offer full-time dispatch
+                support to so you can earn more at your ease.</p></Col>
           </Row>
           <Row className="mt-4 my-4 text-center">
             <GiCutDiamond className="mt-4 my-4" fontSize="8em" color="orangered" /><br />
             <h1>Our Core Values</h1>
             <p>We deliver the competitive advantage you need while eliminating the uncertainty and complexity of your freight delivery. Our service allows you to focus on your business.
               Truckage dispatcher is assigned to every relationship, becoming a single point of contact</p>
-            
+
           </Row>
         </Container>
 
