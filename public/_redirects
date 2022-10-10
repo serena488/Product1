@@ -1,5 +1,5 @@
 # Redirects from what the browser requests to what we serve
 /home              /
-/faqs  /faqs
-/pricing              /agreement
-/aboutus            https://www.petsofnetlify.com
+/faqs  https://truckagedispatching.com/faqs
+/pricing              https://truckagedispatching.com/faqs
+/aboutus            /about
