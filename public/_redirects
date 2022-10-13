@@ -1,5 +1,7 @@
 # Redirects from what the browser requests to what we serve
-/home              /
-/faqs              /
-/pricing           /
-/aboutus           /
+
+/home /
+/faqs /
+/pricing /
+/aboutus /
+/pricing#pricing /
