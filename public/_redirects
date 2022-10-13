@@ -1,5 +1,5 @@
 # Redirects from what the browser requests to what we serve
 /home              /
-/faqs  https://truckagedispatching.com/faqs
-/pricing              https://truckagedispatching.com/faqs
-/aboutus            /about
+/faqs              /
+/pricing           /
+/aboutus           /
