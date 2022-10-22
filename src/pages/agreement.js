@@ -11,8 +11,7 @@ import Img8 from "../assets/img/agreement.jpg";
 const Agreement = () => {
 
 
-  const [formSubmitionStatus, setFormSubmitionStatus] =
-    useState("notSubmitted");
+  const [formSubmitionStatus, setFormSubmitionStatus] = useState("notSubmitted");
 
   useEffect(() => {
     if (formSubmitionStatus === "submitted") {
@@ -47,8 +46,6 @@ const Agreement = () => {
 
 
   };
-
-
 
   return (
 
