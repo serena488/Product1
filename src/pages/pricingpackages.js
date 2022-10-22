@@ -95,13 +95,7 @@ const Pricing = () => {
             <Col className="game2"><FaCheckCircle fontSize="1em" color="orangered" /></Col>
             <Col>-</Col>
           </Row>
-          <Row className="game1">
-            <Col className="text-start">Request Fuel Advances</Col>
-
-            <Col><FaCheckCircle fontSize="1em" color="orangered" /></Col>
-            <Col className="game2"><FaCheckCircle fontSize="1em" color="orangered" /></Col>
-            <Col>-</Col>
-          </Row>
+          
           <Row className="game1">
             <Col className="text-start">24/7 Dispatch Support</Col>
 
