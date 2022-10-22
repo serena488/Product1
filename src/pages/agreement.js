@@ -26,10 +26,10 @@ const Agreement = () => {
 
     emailjs
       .sendForm(
-        "service_3yit61r",
+        "service_ayea0km",
         "template_awcmjio",
         form.current,
-        "CEqhc-QEsEKVy3vzA"
+        "S8YiLcRYqHsLL7DXT"
       )
       .then(
         (result) => {
@@ -71,7 +71,7 @@ const Agreement = () => {
           <hr />
           <Container className="border p-4 HIII my-4">
 
-          
+
             <form ref={form} onSubmit={sendEmail}>
 
 
