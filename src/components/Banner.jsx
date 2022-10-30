@@ -56,10 +56,10 @@ export const Banner = () => {
                   />
                 </Col>
                 <Col sm={12} md={6} xl={6}>
-                  <h4>OUR LOCATION</h4>
+                  <h4>TRIP PLANNING</h4>
                   <p>
-                    473 Mundet Place, <br />
-                    Hillside, NJ, US
+                    Efficient <br />
+                    Trip Planning
                   </p>
                 </Col>
               </Row>
