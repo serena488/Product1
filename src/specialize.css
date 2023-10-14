@@ -18,6 +18,7 @@ figure.snip1104 {
   color: rgb(235, 232, 232);
   text-align: center;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  border: 1px solid ;
 }
 
 figure.snip1104 * {
@@ -47,7 +48,7 @@ figure.snip1104 h2 {
   left: 40px;
   right: 40px;
   display: inline-block;
-  background: rgba(255, 68, 0, 0.945);;
+  background-color: #ED1C24!important;
   -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
   transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
   padding: 12px 5px;
@@ -87,11 +88,11 @@ figure.snip1104 a {
 
 
 figure.snip1104.red {
-  background: rgba(255, 68, 0, 0.781);
+  background: #2622625b;
 }
 
 figure.snip1104.red h2 {
-  background: rgba(255, 68, 0, 0.945);
+  background: rgba(255, 0, 0, 0.37);
 }
 
 

@@ -4,9 +4,6 @@ import { Container } from "react-bootstrap";
 import "../agreement.css";
 import emailjs from "@emailjs/browser";
 
-import Img8 from "../assets/img/agreement.jpg";
-
-
 
 const Agreement = () => {
 
@@ -17,6 +14,10 @@ const Agreement = () => {
     if (formSubmitionStatus === "submitted") {
     }
   }, [formSubmitionStatus]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const form = useRef();
 
@@ -57,7 +58,7 @@ const Agreement = () => {
 
 
       <div className="container p-2 mt-4 align-top">
-        <div color="red" className="container m-3   myS">
+        <div className="products-heading">
 
           <h2>Agreement</h2>
           <p>Provide your data to sign an agreement.

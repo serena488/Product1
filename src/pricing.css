@@ -1,3 +1,7 @@
+.Pricing{
+  background-color: white;
+}
+
 .Container{text-align: center;
 font-size: 08px;}
 
@@ -21,9 +25,9 @@ font-size: 08px;}
 
 
  .game2 .btn3{
-    border: 1px orangered solid;
+    border: 1px #ED1C24 solid;
     background-color: transparent;
-    color: orangered;
+    color: #ED1C24;
     font-size: 15px;
     width: 53px;
 
@@ -31,16 +35,16 @@ font-size: 08px;}
   }
   
  .game2 .btn3:hover{
-    background-color: orangered; ;
+    background-color: #ED1C24; ;
     color: white;
     font-size: 15px;
     width: 53px;
   
   }
    .game3 .btn4{
-    border: 1px orangered solid;
+    border: 1px #ED1C24 solid;
     background-color: transparent;
-    color: orangered;
+    color: #ED1C24;
     font-size: 15px;
     width: 50px;
 
@@ -50,7 +54,7 @@ font-size: 08px;}
   }
   
  .game3 .btn4:hover{
-    background-color: orangered; ;
+    background-color: #ED1C24; ;
     color: white;
     font-size: 15px;
     width: 53px;
@@ -88,7 +92,7 @@ color: white;
 
 .Pricing h1:before,
 .Pricing h1:after {
-  background-color: orangered;
+  background-color: #ED1C24;
   content: "";
   display: inline-block;
   height: 1px;

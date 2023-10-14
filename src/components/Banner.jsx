@@ -1,10 +1,9 @@
 import React from "react";
 
-import { MdCall } from "@react-icons/all-files/md/MdCall.esm";
-import { BsFillCalendarFill } from "@react-icons/all-files/bs/BsFillCalendarFill.esm";
+
 import { RiPinDistanceFill } from "@react-icons/all-files/ri/RiPinDistanceFill.esm";
-import { FaLocationArrow } from "@react-icons/all-files/fa/FaLocationArrow.esm";
-import { Col, Container, Row } from "react-bootstrap";
+import { FaCalendarAlt, FaHeadphonesAlt, FaSearchLocation} from "react-icons/fa";
+import { Col, Row } from "react-bootstrap";
 
 export const Banner = () => {
   return (
@@ -15,9 +14,9 @@ export const Banner = () => {
             <Col sm={12} md={6} xl={3}>
               <Row>
                 <Col sm={12} md={6} xl={6}>
-                  <MdCall
+                  <FaHeadphonesAlt
                     className="pt-2 mt-2 my-2 icon"
-                    color="orangered"
+                    color="#262262"
                     fontSize="5em"
                   />
                 </Col>
@@ -34,9 +33,9 @@ export const Banner = () => {
             <Col sm={12} md={6} xl={3}>
               <Row>
                 <Col sm={12} md={6} xl={6}>
-                  <BsFillCalendarFill
+                  <FaCalendarAlt
                     className="pt-2 mt-2 my-2 icon"
-                    color="orangered"
+                    color="#262262"
                     fontSize="5em"
                   />
                 </Col>
@@ -49,9 +48,9 @@ export const Banner = () => {
             <Col sm={12} md={6} xl={3}>
               <Row>
                 <Col sm={12} md={6} xl={6}>
-                  <FaLocationArrow
+                  <FaSearchLocation
                     className="pt-2 mt-2 my-2 icon"
-                    color="orangered"
+                    color="#262262"
                     fontSize="5em"
                   />
                 </Col>
@@ -69,7 +68,7 @@ export const Banner = () => {
                 <Col sm={12} md={6} xl={6}>
                   <RiPinDistanceFill
                     className="pt-2 mt-2 my-2 icon"
-                    color="orangered"
+                    color="#262262"
                     fontSize="5em"
                   />
                 </Col>

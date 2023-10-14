@@ -15,8 +15,8 @@ import { AiFillDollarCircle } from "@react-icons/all-files/ai/AiFillDollarCircle
 export const Services = () => {
   return (
     <section className="Services p-2">
-      <div className="container p-2 mt-4 align-top myS">
-        <h1>Our Services</h1>
+      <div className="products-heading">
+        <h2>Our Services</h2>
         <p>
           At TDS, you call the shots – We Work for You! Just consider us your
           remote administrative team. You make the ultimate call on where to be
@@ -31,7 +31,7 @@ export const Services = () => {
       <div className="container myContainer">
         <div className="row row-cols-1 row-cols-sm-3 row-cols-md-3 justify-content-center fw-bold text-align-start flex-wrap myT">
           <div className="col">
-            <img src={truckno} />
+            <img alt="tasveer" src={truckno} />
             <br />
             <div className="tabletext">
               No Forced <br />
@@ -40,7 +40,7 @@ export const Services = () => {
           </div>
 
           <div className="clr text-center col">
-            <img src={driving} />
+            <img alt="tasveer" src={driving} />
             <br />
             <div className="tabletext">
               Personal
@@ -50,7 +50,7 @@ export const Services = () => {
           </div>
 
           <div className="col">
-            <img src={delivery} />
+            <img alt="tasveer" src={delivery} />
             <br />
             <div className="tabletext">
               100% <br />
@@ -68,7 +68,7 @@ export const Services = () => {
           </div>
 
           <div className="col">
-            <img src={usa} />
+            <img alt="tasveer" src={usa} />
             <br />
             <div className="tabletext">
               Service Avaliable <br />
@@ -96,7 +96,7 @@ export const Services = () => {
           </div>
 
           <div className="clr col">
-            <img src={lowprice} />
+            <img alt="tasveer" src={lowprice} />
             <br />
             <div className="tabletext">
               We Negotiate Top
@@ -106,7 +106,7 @@ export const Services = () => {
           </div>
 
           <div className="col">
-            <img src={flight} />
+            <img alt="tasveer" src={flight} />
             <br />
             <div className="tabletext">
               24/7 Dispatch
@@ -119,10 +119,10 @@ export const Services = () => {
       <br />
       <br />
       <br />
-      <br />
+    
 
-      <div className="container p-2 mt-4 align-top myS">
-        <h1>Our Plans</h1>
+      <div className="products-heading">
+        <h2>Our Plans</h2>
         <p>TDS provide its customers with following Packages</p>
       </div>
     </section>

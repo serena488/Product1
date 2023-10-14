@@ -26,6 +26,10 @@
     padding-bottom: -150px;
 }
 
+.Agreement{
+  background-color: white;
+}
+
 .Agreementbanner{
     background:linear-gradient(rgba(0,0,0,0.671),rgba(0, 0, 0, 0.671)), url("../src/assets/img/wp10173503-agreement-wallpapers\ \(1\).jpg") ;
     width: 100%;
@@ -46,7 +50,7 @@
   
   .Agreement h1:before,
   .Agreement h1:after {
-    background-color: orangered;
+    background-color: #ED1C24;
     content: "";
     display: inline-block;
     height: 1px;

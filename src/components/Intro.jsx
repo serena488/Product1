@@ -11,16 +11,17 @@ export const Intro = () => {
       <Container>
         <Row>
           <Col
-            className=" text-start text-white m-1  py-4"
+            className="text-white"
+          
             sm={12}
             md={6}
             xl={5}
           >
             <div className="container game">
-              <marquee behavior="slide" direction="down" delay="2s">
-                <h1 className=" ">Dispatch Services</h1>
-              </marquee>
-              <marquee behavior="slide" direction="down">
+              
+                <h1>Dispatch Services</h1>
+          
+              
                 <p>
                   If you’re looking for the best dispatch service for owner
                   operators & independent truckers, you’ve come to the right
@@ -29,18 +30,19 @@ export const Intro = () => {
                   America. We understand the pain & frustration of many truck
                   drivers & owner operators.
                 </p>
-              </marquee>
+          
 
-              <marquee className="mt-4" behavior="slide" direction="down">
+            <div>
                 <a
                   type="button"
                   href="https://api.whatsapp.com/send?phone=19804855274"
                   className="btn btn1"
                 >
-                  Contact Us{" "}
+                  Contact Us
                 </a>
                 <button className="btn btn2">Discover More</button>
-              </marquee>
+                </div>
+
             </div>
           </Col>
           <Col sm={0} md={0} xl={0}></Col>

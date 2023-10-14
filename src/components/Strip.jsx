@@ -29,11 +29,12 @@ export const Strip = () => {
 
           <Col className="col-lg-3 col-md-5 col-7 text-center">
             <MdCall />
-            <a className="fs-5 ms-1  text-white">+1 (980) 485-5274</a>
+            <a href="tel:+19804855274" className="fs-5 ms-1  text-white">+1 (980) 485-5274</a>
+            
           </Col>
           <Col className="col-lg-3 col-md-5 col-12">
             <MdEmail />
-            <a className="fs-5 ms-2  text-white ">
+            <a href="mailto:truckage.dispatch@gmail.com" className="fs-5 ms-2  text-white ">
               truckage.dispatch@gmail.com
             </a>
           </Col>

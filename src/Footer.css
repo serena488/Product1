@@ -286,3 +286,86 @@ a:hover {
 .footer-32892 .btncolor:hover{
 	color: white;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
+
+
+.footer-container {
+	color: WHITE;
+	background-color: black;
+	height: auto;
+	text-align: center;
+  margin: 0px;
+	padding: 30px 10px;
+  
+	display: flex;
+	flex-direction: row;
+	word-spacing: 2px;
+  
+	justify-content: center;
+  }
+  
+  
+  .column {
+	flex: 0 0 calc(25% - 20px);
+	padding: 30px;
+	
+	text-align: left;
+  }
+
+  .column .logContainer{
+	width: 100%;
+	display: flex;
+	justify-content: left;
+  }
+  
+  .column .logContainer .log {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	height: 100px;
+	width: 150px;
+  }
+  
+  .column p {
+	margin-top: 10px;
+	font-weight: normal
+  }
+  
+  .column h4 {
+	font-size: 24px;
+	opacity: 0.8;
+	margin-bottom: 10px;
+  }
+  
+  
+  .strip {
+    background-color: rgba(51, 51, 51, 255);
+    font-family: sans-serif;
+    padding: 15px;
+    height: auto;
+    color: white;
+    letter-spacing: 0.7px;
+    text-align: center;
+    
+  }
+  
+  .strip .jack {
+    float: right;
+    margin-top: 10px;
+  }
+  
+  
+
+
+@media screen and (max-width: 700px) {
+    .footer-container {
+        flex-direction: column;
+      }
+      .strip{
+        text-align: left;
+      }
+}

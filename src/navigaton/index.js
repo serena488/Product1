@@ -7,7 +7,8 @@ import About from "../pages/about";
 import { Footer } from "../components/Footer";
 import { NavBar } from "../components/NavBar";
 import { Strip } from "../components/Strip";
-import { Services } from "../components/Services";
+import Homes from "../pages/Home/index";
+import Blog from "../pages/Blog/index";
 
 
 const Navigation = () => {
@@ -22,6 +23,9 @@ const Navigation = () => {
                 <Route path='/faqs' element={<FAQS />} />
                 <Route path='/pricing' element={<Pricing />} />
                 <Route path='/agreement' element={<Agreement />} />
+                <Route path='/blogs' element={<Homes />} />
+                <Route path='/blog/:id' element={<Blog />} />
+
             </Routes>
 
             <Footer />

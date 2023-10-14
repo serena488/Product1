@@ -1,3 +1,6 @@
+.FAQSS{
+  background-color: white;
+}
 
 .Faqsbanner{
     background:linear-gradient(rgba(0,0,0,0.671),rgba(0, 0, 0, 0.671)), url("../src/assets/img/wp8930082-faq-wallpapers.jpg") ;
@@ -13,7 +16,7 @@
   .accordion-button {
     background-color: rgb(235, 232, 232) !important;
     margin-bottom: 3px;
-    border-left: 5px solid orangered;
+    border-left: 5px solid #ED1C24;
   }
   
   .accordion-button:focus {
@@ -30,7 +33,7 @@
 
 
 .bodys{
-  background-color: orangered;
+  background-color: #ED1C24;
   color: white;
   border-left: 5px solid white;
 }
@@ -43,13 +46,13 @@
     text-align: center;
   }
   .item{
-    background-color: orangered;
+    background-color: #ED1C24;
     color: white;
   }
 
   .Faqs h1:before,
   .Faqs h1:after {
-    background-color: orangered;
+    background-color: #ED1C24;
     content: "";
     display: inline-block;
     height: 1px;

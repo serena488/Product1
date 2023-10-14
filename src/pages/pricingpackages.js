@@ -1,11 +1,16 @@
 import React from "react";
-import pricing from "../pricing.css";
+import { useEffect } from "react";
+import "../pricing.css";
 import { Row, Col, Container } from "react-bootstrap";
 import { FaCheckCircle } from "@react-icons/all-files/fa/FaCheckCircle.esm";
 import { FaDollarSign } from "@react-icons/all-files/fa/FaDollarSign.esm";
 
 
 const Pricing = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
 
     <section className="Pricing">
@@ -13,7 +18,7 @@ const Pricing = () => {
         <h1>Our Packages</h1>
       </div><br /><br />
       <Container>
-        <div color="red" className="container m-3   myS">
+        <div color="red" className="products-heading">
 
           <h2>Packages</h2>
           <p>Select the desired package from the following.
@@ -42,32 +47,32 @@ const Pricing = () => {
 
           <Row className="game1">
             <Col className="text-start">You're The Boss!</Col>
-            <Col><FaCheckCircle fontSize="1em" color="orangered" /></Col>
-            <Col className="game2"> <FaCheckCircle fontSize="1em" color="orangered" /></Col>
+            <Col><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
+            <Col className="game2"> <FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
             <Col>-</Col>
           </Row>
           <Row className="game1">
             <Col className="text-start">No Forced Dispatch</Col>
-            <Col><FaCheckCircle fontSize="1em" color="orangered" /></Col>
-            <Col className="game2"><FaCheckCircle fontSize="1em" color="orangered" /></Col>
+            <Col><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
+            <Col className="game2"><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
             <Col>-</Col>
           </Row>
           <Row className="game1">
             <Col className="text-start">Payload & FSC = 100% Yours</Col>
-            <Col><FaCheckCircle fontSize="1em" color="orangered" /></Col>
-            <Col className="game2"><FaCheckCircle fontSize="1em" color="orangered" /></Col>
+            <Col><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
+            <Col className="game2"><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
             <Col>-</Col>
           </Row>
           <Row className="game1">
             <Col className="text-start">We Negotiate Top Paying Rates</Col>
-            <Col><FaCheckCircle fontSize="1em" color="orangered" /></Col>
-            <Col className="game2"><FaCheckCircle fontSize="1em" color="orangered" /></Col>
+            <Col><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
+            <Col className="game2"><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
             <Col>-</Col>
           </Row>
           <Row className="game1">
             <Col className="text-start">Setup Paperwork</Col>
-            <Col><FaCheckCircle fontSize="1em" color="orangered" /></Col>
-            <Col className="game2"><FaCheckCircle fontSize="1em" color="orangered" /></Col>
+            <Col><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
+            <Col className="game2"><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
             <Col>-</Col>
           </Row>
           <Row className="game1">
@@ -84,15 +89,15 @@ const Pricing = () => {
           </Row>
           <Row className="game1">
             <Col className="text-start">Personal Dispatcher</Col>
-            <Col ><FaCheckCircle fontSize="1em" color="orangered" /></Col>
-            <Col className="game2"><FaCheckCircle fontSize="1em" color="orangered" /></Col>
+            <Col ><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
+            <Col className="game2"><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
             <Col>-</Col>
           </Row>
           <Row className="game1">
             <Col className="text-start">Request Quick Pay</Col>
 
-            <Col><FaCheckCircle fontSize="1em" color="orangered" /></Col>
-            <Col className="game2"><FaCheckCircle fontSize="1em" color="orangered" /></Col>
+            <Col><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
+            <Col className="game2"><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
             <Col>-</Col>
           </Row>
           
@@ -100,56 +105,56 @@ const Pricing = () => {
             <Col className="text-start">24/7 Dispatch Support</Col>
 
             <Col></Col>
-            <Col className="game2"><FaCheckCircle fontSize="1em" color="orangered" /></Col>
+            <Col className="game2"><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
             <Col>-</Col>
           </Row>
           <Row className="game1">
             <Col className="text-start">Request Insurance Certificate</Col>
 
             <Col></Col>
-            <Col className="game2"><FaCheckCircle fontSize="1em" color="orangered" /></Col>
+            <Col className="game2"><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
             <Col>-</Col>
           </Row>
           <Row className="game1">
             <Col className="text-start">Driver Director Assistance</Col>
 
             <Col></Col>
-            <Col className="game2"><FaCheckCircle fontSize="1em" color="orangered" /></Col>
+            <Col className="game2"><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
             <Col>-</Col>
           </Row>
           <Row className="game1">
             <Col className="text-start">Negotiate Quick Pay Rates</Col>
 
             <Col></Col>
-            <Col className="game2"><FaCheckCircle fontSize="1em" color="orangered" /></Col>
+            <Col className="game2"><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
             <Col>-</Col>
           </Row>
           <Row className="game1">
             <Col className="text-start">Factor Setup Assistance</Col>
 
             <Col></Col>
-            <Col className="game2"><FaCheckCircle fontSize="1em" color="orangered" /></Col>
+            <Col className="game2"><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
             <Col>-</Col>
           </Row>
           <Row className="game1">
             <Col className="text-start">Collection Assistance</Col>
 
             <Col></Col>
-            <Col className="game2"><FaCheckCircle fontSize="1em" color="orangered" /></Col>
+            <Col className="game2"><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
             <Col>-</Col>
           </Row>
           <Row className="game1">
             <Col className="text-start">Detention Charges Assistance</Col>
 
             <Col></Col>
-            <Col className="game2"><FaCheckCircle fontSize="1em" color="orangered" /></Col>
+            <Col className="game2"><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
             <Col>-</Col>
           </Row>
           <Row className="game1">
             <Col className="text-start">Unused Truck Order Assistance</Col>
 
             <Col></Col>
-            <Col className="game2"><FaCheckCircle fontSize="1em" color="orangered" /></Col>
+            <Col className="game2"><FaCheckCircle fontSize="1em" color="#ED1C24" /></Col>
             <Col>-</Col>
           </Row>
         </Container >
@@ -170,7 +175,7 @@ const Pricing = () => {
               </button></Col>
             <Col className="game2 ">
               <button className="btn btn3">
-                <b>6% only</b>
+                <b>10% only</b>
               </button></Col>
           </Row>
           <hr />

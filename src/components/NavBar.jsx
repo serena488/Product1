@@ -1,87 +1,107 @@
 import React from "react";
-
+import { GiHamburgerMenu } from "react-icons/gi";
+import { GiCrossedSabres } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
 
-import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../assets/img/truck.jpeg";
-import { useState } from "react";
-// import navIcon1 from '../assets/img/nav-icon1.svg';
-// import navIcon2 from '../assets/img/nav-icon2.svg';
-// import navIcon3 from '../assets/img/nav-icon3.svg';
-// import { HashLink } from 'react-router-hash-link';
+import logo from "../assets/img/mlogo.png";
+
+import "./NavBar.css";
 
 export const NavBar = () => {
-  const onUpdateActiveLink = (value) => {
-    setActiveLink(value);
-  };
-  const [activeLink, setActiveLink] = useState("home");
+  const [toggleMenu, setToggleMenu] = React.useState(false);
+  
 
   return (
-    <Navbar expand="md" className="mynav py-2">
-      <Container className="sticky-top">
-        <Navbar.Brand href="/">
-          <img src={logo} alt="Logo" />
-        </Navbar.Brand>
+    <nav className="app__navbar">
+      <div className="app__navbar-logo">
+      <img src={logo} alt="Logo" />
+        
+      </div>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav">
-          <span className="navbar-toggler-icon"></span>
-        </Navbar.Toggle>
+      <ul className="app__navbar-links">
+        <li className="p__opensans">
+          <NavLink to="/">Home </NavLink>
+        </li>
+        <li className="p__opensans">
+        <NavLink to="/about">About </NavLink>
+        </li>
+        <li className="p__opensans">
+        <NavLink to="/pricing">Pricing </NavLink>
+        </li>
+        <li className="p__opensans">
+        <NavLink to="/agreement">Agreement </NavLink>
+        </li>
+        <li className="p__opensans">
+        <NavLink to="/faqs">FAQ's </NavLink>
+        </li>
+        <li className="p__opensans">
+        <NavLink to="/blogs">Blogs </NavLink>
+        </li>
+      
+        
+    
+        
+      </ul>
 
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto sticky-top">
-            <NavLink
-              to="/"
-              className={
-                activeLink === "home" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("home")}
-            >
-              Home
-            </NavLink>
+      
+      <div className="app__navbar-smallscreen">
+        <GiHamburgerMenu
+          color="black"
+          fontSize={27}
+          onClick={() => setToggleMenu(true)}
+        />
+        {toggleMenu && (
+          <div className="app__navbar-smallscreen_overlay flex__center slide-down">
+            <GiCrossedSabres
+              fontSize={27}
+              className="overlay__close"
+              onClick={() => setToggleMenu(false)}
+            />
+            <ul className="app__navbar-smallscreen_links">
+              <li>
+                <NavLink to="/" onClick={() => setToggleMenu(false)}>
+                  
+                  <a style={{textDecoration:"none", color:"black"}}>Home</a>
+                </NavLink>
+              </li>
+              <li>
+              <NavLink to="/about" onClick={() => setToggleMenu(false)}>
+                  
+                  <a style={{textDecoration:"none", color:"black"}}>About</a>
+                </NavLink>
+              </li>
 
-            <NavLink
-              href="#aboutus"
-              to="/about"
-              className={
-                activeLink === "aboutus" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={(aboutus) => onUpdateActiveLink("aboutus")}
-            >
-              About
-            </NavLink>
-            <NavLink
-              id="pricing"
-              to="/pricing#pricing"
-              className={
-                activeLink === "pricing" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("pricing")}
-            >
-              Pricing
-            </NavLink>
-            <NavLink
-              to="/faqs"
-              className={
-                activeLink === "services" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("services")}
-            >
-              FAQ's
-            </NavLink>
-            <NavLink
-              to="/agreement"
-              className={
-                activeLink === "agreement"
-                  ? "active navbar-link"
-                  : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("agreement")}
-            >
-              Agreement
-            </NavLink>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+
+              <li>
+              <NavLink to="/pricing" onClick={() => setToggleMenu(false)}>
+                  
+                  <a style={{textDecoration:"none", color:"black"}}>Pricing</a>
+                </NavLink>
+              </li>
+              <li>
+              <NavLink to="/agreement" onClick={() => setToggleMenu(false)}>
+                  
+                  <a style={{textDecoration:"none", color:"black"}}>Agreement</a>
+                </NavLink>
+              </li>
+              <li>
+              <NavLink to="/faqs" onClick={() => setToggleMenu(false)}>
+                  
+                  <a style={{textDecoration:"none", color:"black"}}>FAQ's</a>
+                </NavLink>
+              </li>
+              <li>
+              <NavLink to="/blogs" onClick={() => setToggleMenu(false)}>
+                  
+                  <a style={{textDecoration:"none", color:"black"}}>Blogs</a>
+                </NavLink>
+              </li>
+              
+              
+            </ul>
+          </div>
+        )}
+      </div>
+    </nav>
   );
 };

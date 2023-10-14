@@ -5,10 +5,10 @@ export const Loading = () => {
   return (
     <div className="Data">
       <Puff
-        height="100"
-        width="100"
-        radius="9"
-        color="#ff4000"
+        height="130"
+        width="130"
+        radius="10"
+        color="midnightblue"
         ariaLabel="loading"
         wrapperStyle
         wrapperClass

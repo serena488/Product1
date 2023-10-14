@@ -1,6 +1,6 @@
 import Girl from "../assets/img/girl.jpg";
 import Girl2 from "../assets/img/allison.jpg";
-import Girl3 from "../assets/img/lau keith.jpg";
+// import Girl3 from "../assets/img/lau keith.jpg";
 import Girl4 from "../assets/img/allef Shafak.jpg";
 import Boy from "../assets/img/boy.jpg";
 import { FaStar } from "@react-icons/all-files/fa/FaStar.esm";
@@ -28,7 +28,7 @@ export const Testimon = () => {
               <Carousel.Item>
                 <div className="mytext">
                   <FaQuoteLeft
-                    color="orangered"
+                    color="#ED1C24"
                     className="float-start"
                     fontSize="2em"
                   />
@@ -41,21 +41,21 @@ export const Testimon = () => {
                   revised rate confirmation for detention pay & lay overs. I'm
                   glad to have them working for our company!
                   <br />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
                   <br />
                   <br />
-                  <img src={Boy} />
+                  <img alt="boy" src={Boy} />
                   <h5>Johny Slam</h5>
                 </div>
               </Carousel.Item>
               <Carousel.Item>
                 <div className="mytext">
                   <FaQuoteLeft
-                    color="orangered"
+                    color="#ED1C24"
                     className="float-start"
                     fontSize="2em"
                   />
@@ -66,14 +66,15 @@ export const Testimon = () => {
                   paying loads, Highly recommended "
                   <br />
                   <br />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
                   <br />
                   <br />
-                  <img src={Girl} />
+                  <img alt="boy" src={Girl} />
+                  
                   <h5>Mia Manissa</h5>
                 </div>
               </Carousel.Item>
@@ -81,7 +82,7 @@ export const Testimon = () => {
               <Carousel.Item>
                 <div className="mytext">
                   <FaQuoteLeft
-                    color="orangered"
+                    color="#ED1C24"
                     className="float-start"
                     fontSize="2em"
                   />
@@ -94,14 +95,14 @@ export const Testimon = () => {
                   him."
                   <br />
                   <br />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
                   <br />
                   <br />
-                  <img src={Girl2} />
+                  <img alt="boy" src={Girl2} />
                   <h5>Debora Wolf</h5>
                 </div>
               </Carousel.Item>
@@ -122,14 +123,14 @@ export const Testimon = () => {
                   project installation crews)."
                   <br />
                   <br />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
-                  <FaStar color="orangered" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
+                  <FaStar color="#ED1C24" fontSize="1em" />
                   <br />
                   <br />
-                  <img src={Girl4} />
+                  <img  alt="boy" src={Girl4} />
                   <h5>Elif Shafak</h5>
                 </div>
               </Carousel.Item>

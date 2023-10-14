@@ -10,6 +10,9 @@
   
  
 }
+.About{
+  background-color: white;
+}
 
 .About h1 {
     overflow: hidden;
@@ -18,7 +21,7 @@
   
   .About h1:before,
   .About h1:after {
-    background-color: orangered;
+    background-color: #ED1C24;
     content: "";
     display: inline-block;
     height: 1px;

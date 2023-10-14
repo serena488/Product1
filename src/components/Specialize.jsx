@@ -16,9 +16,9 @@ export const Specialize = () => {
   return (
     <section className="Specialize" id="specialize">
       <div className="container">
-        <div className="container p-2 my-4 m-1 align-top myS">
-          <p className="text-orangered">OUR SPECIALIZATION</p>
-          <h1>We are Specialized in...</h1>
+        <div className="products-heading">
+          <p>OUR SPECIALIZATION</p>
+          <h2>We are Specialized in...</h2>
         </div>
         <Container>
           <Row>
@@ -30,7 +30,7 @@ export const Specialize = () => {
                     <span> Refeer</span>
                   </h2>
                 </figcaption>
-                <a href="#"></a>
+                <a href="/">{""}</a>
               </figure>
             </Col>
             <Col sm={12} md={6} lg={4}>
@@ -41,7 +41,7 @@ export const Specialize = () => {
                     Step <span> Deck</span>
                   </h2>
                 </figcaption>
-                <a href="#"></a>
+                <a href="/">{""}</a>
               </figure>
             </Col>
             <Col sm={12} md={6} lg={4}>
@@ -52,7 +52,7 @@ export const Specialize = () => {
                     Dry <span> Van</span>
                   </h2>
                 </figcaption>
-                <a href="#"></a>
+                <a href="/">{""}</a>
               </figure>
             </Col>
             <Col sm={12} md={6} lg={4}>
@@ -63,7 +63,7 @@ export const Specialize = () => {
                     Power <span> Only</span>
                   </h2>
                 </figcaption>
-                <a href="#"></a>
+                <a href="/">{""}</a>
               </figure>
             </Col>
             <Col sm={12} md={6} lg={4}>
@@ -74,7 +74,7 @@ export const Specialize = () => {
                     Flat <span> Bed</span>
                   </h2>
                 </figcaption>
-                <a href="#"></a>
+                <a href="/">{""}</a>
               </figure>
             </Col>
             <Col sm={12} md={6} lg={4}>
@@ -85,7 +85,7 @@ export const Specialize = () => {
                     Box <span> Truck</span>
                   </h2>
                 </figcaption>
-                <a href="#"></a>
+                <a  href="/">{""}</a>
               </figure>
             </Col>
           </Row>

@@ -13,8 +13,8 @@ const About = () => {
       </div>
       <Container>
         <div className="container">
-          <div className="container p-2 mt-4 align-top myS">
-            <p className="text-orangered">ABOUT US</p>
+          <div className="products-heading">
+            <p>ABOUT US</p>
 
             <h2>About Our Comapany</h2>
           </div>
@@ -26,11 +26,11 @@ const About = () => {
                 TDS offers highly paying loads by targeting hot lanes to owner-operators and carriers to enhance
                 their revenues. TDS Sales & Dispatch Team are well experienced. With our expertise and years
                 of experience, we have built a good reputation in freight dispatching.</p></Col>
-              <Col sm={12} md={12} lg={7} ><img className="jango" src={Jango} /></Col>
+              <Col sm={12} md={12} lg={7} ><img className="jango" src={Jango} alt="tasveer" /></Col>
             </Row>
             <Row className="mt-4 my-4">
               <Col sm={12} md={12} lg={7}>
-                <img src={Jangol} ></img>
+                <img src={Jangol} alt="tasveer" ></img>
               </Col>
               <Col sm={12} md={12} lg={5}>
                 <div className="container p-2 mt-4 my-2 align-top myS">
@@ -44,15 +44,15 @@ const About = () => {
                   to just focus on the road and make good money, Our mission is to offer full-time dispatch
                   support so that syou can earn more at your ease.</p></Col>
             </Row>
-            <Row sm={12} md={12} lg={12} className="mt-4 my-4 text-center">
-              <GiCutDiamond className="mt-4 my-4" fontSize="8em" color="orangered" /><br />
+            <Row sm={12} md={12} lg={12} className="mt-4  text-center">
+              <GiCutDiamond className="mt-4 " fontSize="8em" color="#ED1C24" /><br />
               <h1>Our Core Values</h1>
               <p>We deliver the competitive advantage you need while eliminating the uncertainty and complexity of your freight delivery. Our service allows you to focus on your business.
                 Truckage dispatcher is assigned to every relationship, becoming a single point of contact</p>
 
             </Row>
           </Container>
-
+<br/><br/><br />
 
         </div>
       </Container>
